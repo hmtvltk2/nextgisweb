@@ -71,6 +71,7 @@ def main(global_config=None, **settings):
 
     env = Env(cfg=load_config(None, None), initialize=True, set_global=True)
     config = env.pyramid.make_app({})
+    config.add_settings({'pyramid.scheme': 'https'})
     app = config.make_wsgi_app()
     _log_startup_time()
     return app
