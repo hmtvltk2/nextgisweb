@@ -1,0 +1,172 @@
+#: amd/ngw-feature-attachment/DisplayWidget.js:9
+#: nodepkg/attachment-bundle/ol-control/control.ts:21
+#: nodepkg/attachment-bundle/ol-control/control.ts:37
+#: nodepkg/attachment-bundle/plugin/plugin.ts:16
+#: nodepkg/attachment-editor/plugin.ts:8
+#: nodepkg/attachment-table-view/AttachmentTableView.tsx:23
+msgid "Attachments"
+msgstr "Tệp đính kèm"
+
+#: component.py:13
+msgid "Feature attachments"
+msgstr "Tệp đính kèm đối tượng"
+
+#: exception.py:7
+msgid "Attachment not found"
+msgstr "Không tìm thấy tệp đính kèm"
+
+#: exception.py:8
+msgid "Attachment with id = %d was not found in feature with id = %d."
+msgstr "Không tìm thấy tệp đính kèm với id = %d trong đối tượng có id = %d."
+
+#: exception.py:9
+msgid "The attachment may have been deleted or an error in the address."
+msgstr "Tệp đính kèm có thể đã bị xóa hoặc có lỗi trong địa chỉ."
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:34
+msgid "Draw the geometry on the map to visualize the attachments to the objects"
+msgstr "Vẽ hình học trên bản đồ để hiển thị tệp đính kèm cho các đối tượng"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:132
+msgid "Object: "
+msgstr "Đối tượng: "
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:141
+msgid "Identify object"
+msgstr "Xác định đối tượng"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:162
+msgid "Attachments: "
+msgstr "Tệp đính kèm: "
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:189
+msgid "No attachments"
+msgstr "Không có tệp đính kèm"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:255
+msgid "Download all attachments"
+msgstr "Tải xuống tất cả tệp đính kèm"
+
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:160
+#: nodepkg/attachment-table/AttachmentTable.tsx:45
+msgid "File name"
+msgstr "Tên tệp"
+
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:166
+#: nodepkg/attachment-table/AttachmentTable.tsx:63
+msgid "Size"
+msgstr "Kích thước"
+
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:172
+#: nodepkg/attachment-table/AttachmentTable.tsx:78
+msgid "Description"
+msgstr "Mô tả"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:56
+msgid ""
+"Use export to copy feature attachments between different layers or to create "
+"a backup. The resulting ZIP archive will contain all of the attachments put "
+"in directories named after feature IDs. Attachment metadata are put into a "
+"separate JSON file."
+msgstr ""
+"Sử dụng xuất để sao chép tệp đính kèm giữa các lớp khác nhau hoặc tạo bản sao lưu. Tệp ZIP kết quả sẽ chứa tất cả tệp đính kèm trong các thư mục được đặt tên theo ID đối tượng. Siêu dữ liệu tệp đính kèm sẽ được lưu trong một tệp JSON riêng biệt."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:66
+msgid "Export attachments to ZIP archive"
+msgstr "Xuất tệp đính kèm ra tệp ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:84
+msgid "Back to resource"
+msgstr "Quay lại tài nguyên"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:86
+msgid "Close"
+msgstr "Đóng"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:89
+msgid "The archive has been successfully imported."
+msgstr "Đã nhập tệp lưu trữ thành công."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:91
+msgid "Attachments imported - {i}, skipped - {s}."
+msgstr "Tệp đính kèm đã nhập - {i}, đã bỏ qua - {s}."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:126
+msgid ""
+"Upload a ZIP archive to batch append attachments to existing features. An "
+"archive must contain directories named after feature IDs. Each folder can "
+"contain one or many attachments. Duplicates will be ignored."
+msgstr ""
+"Tải lên tệp ZIP để thêm hàng loạt tệp đính kèm vào các đối tượng hiện có. Tệp lưu trữ phải chứa các thư mục được đặt tên theo ID đối tượng. Mỗi thư mục có thể chứa một hoặc nhiều tệp đính kèm. Các tệp trùng lặp sẽ bị bỏ qua."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:135
+msgid "Delete existing attachments"
+msgstr "Xóa tệp đính kèm hiện có"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:160
+msgid "Import attachments from ZIP archive"
+msgstr "Nhập tệp đính kèm từ tệp ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:172
+msgid "Export"
+msgstr "Xuất"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:177
+msgid "Import"
+msgstr "Nhập"
+
+#: nodepkg/attachment-table/AttachmentTable.tsx:55
+msgid "Unnamed"
+msgstr "Không tên"
+
+#: nodepkg/attachment-table/AttachmentTable.tsx:72
+msgid "MIME type"
+msgstr "Loại MIME"
+
+#: nodepkg/image-thumbnail/component/CarouselRender.tsx:32
+msgid "Toggle panorama viewer"
+msgstr "Bật/tắt trình xem toàn cảnh"
+
+#: nodepkg/image-thumbnail/component/CarouselSlide.tsx:70
+msgid "Failed to upload image"
+msgstr "Tải ảnh lên thất bại"
+
+#: util.py:26
+msgid "Invalid ZIP archive."
+msgstr "Tệp ZIP không hợp lệ."
+
+#: util.py:55
+msgid "File '{}' isn't found in metadata."
+msgstr "Không tìm thấy tệp '{}' trong siêu dữ liệu."
+
+#: util.py:61
+msgid "Invalid feature ID for file '{}'."
+msgstr "ID đối tượng không hợp lệ cho tệp '{}'."
+
+#: util.py:68
+msgid "Invalid keyname for file '{}'."
+msgstr "Tên khóa không hợp lệ cho tệp '{}'."
+
+#: util.py:74
+msgid "Invalid name for file '{}'."
+msgstr "Tên không hợp lệ cho tệp '{}'."
+
+#: util.py:80
+msgid "Invalid MIME type for file '{}'."
+msgstr "Loại MIME không hợp lệ cho tệp '{}'."
+
+#: util.py:87
+msgid "Invalid description for file '{}'."
+msgstr "Mô tả không hợp lệ cho tệp '{}'."
+
+#: util.py:100
+msgid "Could not determine feature ID for file '{}'."
+msgstr "Không thể xác định ID đối tượng cho tệp '{}'."
+
+#: util.py:118
+msgid "File '{}' isn't found in the archive."
+msgstr "Không tìm thấy tệp '{}' trong lưu trữ."
+
+#: view.py:20 view.py:43
+msgid "Manage attachments"
+msgstr "Quản lý tệp đính kèm"

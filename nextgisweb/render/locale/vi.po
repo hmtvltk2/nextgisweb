@@ -1,0 +1,58 @@
+#: api.py:82
+msgid "Invalid origin"
+msgstr "Nguồn không hợp lệ"
+
+#: api.py:83
+msgid ""
+"Origin validation is enabled for rendering requests, but the given origin "
+"doesn't match with the CORS origins list."
+msgstr ""
+"Đã bật kiểm tra nguồn cho các yêu cầu kết xuất, nhưng nguồn được cung cấp không khớp với danh sách nguồn CORS cho phép."
+
+#: api.py:158
+msgid "Invalid symbols sequence"
+msgstr "Chuỗi ký tự không hợp lệ"
+
+#: component.py:24 nodepkg/tile-cache-widget/TileCacheWidget.tsx:93
+msgid "Tile cache"
+msgstr "Bộ nhớ đệm tile"
+
+#: component.py:51 nodepkg/tile-cache-widget/TileCacheWidget.tsx:50
+msgid "Enabled"
+msgstr "Đã bật"
+
+#: component.py:51
+msgid "Disabled"
+msgstr "Đã tắt"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:58
+msgid "Allow using tiles in non-tile requests"
+msgstr "Cho phép sử dụng tile cho các yêu cầu không phải tile"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:62
+msgid "Max zoom level"
+msgstr "Mức thu phóng tối đa"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:71
+msgid "TTL, sec."
+msgstr "TTL, giây"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:85
+msgid "Flush"
+msgstr "Xóa sạch"
+
+#: view.py:25
+msgid "TMS (Tile Map Service)"
+msgstr "TMS (Dịch vụ bản đồ tile)"
+
+#: view.py:26
+msgid ""
+"TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
+"is a map displayed in a browser by seamlessly joining dozens of individually "
+"requested image."
+msgstr ""
+"TMS (Dịch vụ bản đồ tile) là một tiêu chuẩn cho bản đồ web dạng tile. Bản đồ web dạng tile là bản đồ được hiển thị trên trình duyệt bằng cách ghép liền mạch hàng chục hình ảnh được yêu cầu riêng lẻ."
+
+#: view.py:42
+msgid "Legend symbols"
+msgstr "Ký hiệu chú giải"

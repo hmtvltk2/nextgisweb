@@ -1,0 +1,87 @@
+#: model.py:127 nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:61
+msgid "WFS connection"
+msgstr "Kết nối WFS"
+
+#: model.py:431 nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:239
+msgid "WFS layer"
+msgstr "Lớp WFS"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:28
+msgid "URL"
+msgstr "URL"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:35
+msgid "Username"
+msgstr "Tên người dùng"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:42
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:49
+msgid "Version"
+msgstr "Phiên bản"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:24
+msgid "Fields need to be updated due to autodetection"
+msgstr "Cần cập nhật các trường do tự động phát hiện"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:19
+msgid "Autodetect"
+msgstr "Tự động phát hiện"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:73
+msgid "Point"
+msgstr "Điểm"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:74
+msgid "Line"
+msgstr "Đường"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:75
+msgid "Polygon"
+msgstr "Đa giác"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:76
+msgid "Multipoint"
+msgstr "Đa điểm"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:77
+msgid "Multiline"
+msgstr "Đa đường"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:78
+msgid "Multipolygon"
+msgstr "Đa đa giác"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:91
+msgid "Keep existing definitions untouched"
+msgstr "Giữ nguyên các định nghĩa hiện có"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:92
+msgid "Update definitions from the server"
+msgstr "Cập nhật định nghĩa từ máy chủ"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:170
+msgid "Connection"
+msgstr "Kết nối"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:179
+msgid "Layer"
+msgstr "Lớp"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:195
+msgid "SRID"
+msgstr "SRID"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:199
+msgid "Geometry column"
+msgstr "Cột hình học"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:214
+msgid "Geometry type"
+msgstr "Loại hình học"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:226
+msgid "Attribute definitions"
+msgstr "Định nghĩa thuộc tính"

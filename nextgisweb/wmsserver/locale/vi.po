@@ -1,0 +1,31 @@
+#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:119 view.py:16
+msgid "WMS service"
+msgstr "Dịch vụ WMS"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:30
+msgid "Display name"
+msgstr "Tên hiển thị"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:35
+msgid "Keyname"
+msgstr "Tên khóa"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:40
+msgid "Min scale"
+msgstr "Tỷ lệ nhỏ nhất"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:45
+msgid "Max scale"
+msgstr "Tỷ lệ lớn nhất"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:50
+msgid "Resource"
+msgstr "Tài nguyên"
+
+#: view.py:17
+msgid ""
+"Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
+" Consortium for serving georeferenced map images. These images are typically "
+"produced by a map server from data provided by a GIS database."
+msgstr ""
+"Dịch vụ Web Map (WMS) là một giao thức tiêu chuẩn do Open Geospatial Consortium phát triển để cung cấp các hình ảnh bản đồ có tham chiếu địa lý. Những hình ảnh này thường được tạo ra bởi máy chủ bản đồ từ dữ liệu do cơ sở dữ liệu GIS cung cấp."

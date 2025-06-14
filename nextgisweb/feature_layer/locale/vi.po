@@ -1,0 +1,400 @@
+#: api.py:107 api_identify.py:27
+msgid "Geometry is not valid."
+msgstr "Hình học không hợp lệ."
+
+#: api.py:365
+msgid "Unknown spatial reference system"
+msgstr "Hệ tọa độ không xác định"
+
+#: api.py:440 api_export.py:206
+msgid "Parameter 'intersects' geometry is not valid."
+msgstr "Tham số 'intersects' có hình học không hợp lệ."
+
+#: api_export.py:110
+msgid "Couldn't add FID field '{}'. Such field already exists."
+msgstr "Không thể thêm trường FID '{}'. Trường này đã tồn tại."
+
+#: api_export.py:245
+msgid "The export limit is set to {limit} features, but the layer contains {count}."
+msgstr "Giới hạn xuất là {limit} đối tượng, nhưng lớp này chứa {count} đối tượng."
+
+#: api_export.py:259
+msgid "Failed to reproject 'intersects' geometry."
+msgstr "Không thể chuyển đổi hệ tọa độ hình học 'intersects'."
+
+#: api_export.py:428
+msgid "File name parameter '{}' is not valid."
+msgstr "Tên tệp '{}' không hợp lệ."
+
+#: biutil.py:25
+msgid "Got an invalid BIGINT value: {}."
+msgstr "Nhận giá trị BIGINT không hợp lệ: {}."
+
+#: biutil.py:26
+msgid "The value must be within the inclusive range of {min} to {max}."
+msgstr "Giá trị phải nằm trong khoảng từ {min} đến {max} (bao gồm cả hai đầu)."
+
+#: dtutil.py:28
+msgid "Got an invalid date-time value in the legacy format: {}."
+msgstr "Nhận giá trị ngày-giờ không hợp lệ ở định dạng cũ: {}."
+
+#: dtutil.py:29
+msgid "Please use dt_format=iso and ISO-8601 based format."
+msgstr "Vui lòng sử dụng dt_format=iso và định dạng dựa trên ISO-8601."
+
+#: dtutil.py:37
+msgid "Got an invalid date-time value in ISO-8601 format: {}."
+msgstr "Nhận giá trị ngày-giờ không hợp lệ ở định dạng ISO-8601: {}."
+
+#: dtutil.py:38
+msgid "Value should be in RFC 3339 {} format without timezone and leap seconds."
+msgstr "Giá trị phải ở định dạng RFC 3339 {} không có múi giờ và giây nhuận."
+
+#: exception.py:7
+msgid "Feature not found"
+msgstr "Không tìm thấy đối tượng"
+
+#: exception.py:8
+msgid "Feature with id = %d was not found in resource with id = %d."
+msgstr "Không tìm thấy đối tượng với id = %d trong tài nguyên có id = %d."
+
+#: exception.py:9
+msgid "The feature may have been deleted or an error in the address."
+msgstr "Đối tượng có thể đã bị xóa hoặc có lỗi trong địa chỉ."
+
+#: exception.py:20
+msgid "Feature not deleted"
+msgstr "Đối tượng chưa bị xóa"
+
+#: exception.py:21
+msgid "Unable to restore the #{} feature as it is not deleted."
+msgstr "Không thể khôi phục đối tượng #{} vì nó chưa bị xóa."
+
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:24 view.py:39
+msgid "Feature table"
+msgstr "Bảng đối tượng"
+
+#: model.py:172
+msgid "Field not found (ID=%d)."
+msgstr "Không tìm thấy trường (ID=%d)."
+
+#: model.py:249
+msgid "Versioning not supported"
+msgstr "Không hỗ trợ phiên bản hóa"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:34
+msgid "Set field value to NULL (No data)"
+msgstr "Đặt giá trị trường là NULL (Không có dữ liệu)"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:35
+msgid "There are no attributes in the vector layer"
+msgstr "Không có thuộc tính nào trong lớp vector"
+
+#: nodepkg/attribute-editor/plugin.ts:10
+msgid "Attributes"
+msgstr "Thuộc tính"
+
+#: nodepkg/export-form/ExportForm.tsx:203
+msgid "Resources"
+msgstr "Tài nguyên"
+
+#: nodepkg/export-form/ExportForm.tsx:225
+msgid "Format"
+msgstr "Định dạng"
+
+#: nodepkg/export-form/ExportForm.tsx:238
+msgid "SRS"
+msgstr "Hệ tọa độ"
+
+#: nodepkg/export-form/ExportForm.tsx:243
+msgid "Encoding"
+msgstr "Bảng mã"
+
+#: nodepkg/export-form/ExportForm.tsx:257
+msgid "FID field"
+msgstr "Trường FID"
+
+#: nodepkg/export-form/ExportForm.tsx:261
+msgid "Use field display names instead of keynames"
+msgstr "Sử dụng tên hiển thị trường thay vì tên khóa"
+
+#: nodepkg/export-form/ExportForm.tsx:267
+#: nodepkg/fields-widget/FieldsWidget.tsx:166
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
+msgid "Fields"
+msgstr "Trường"
+
+#: nodepkg/export-form/ExportForm.tsx:273
+msgid "Limit by extent"
+msgstr "Giới hạn theo phạm vi"
+
+#: nodepkg/export-form/ExportForm.tsx:279
+msgid "Filter text"
+msgstr "Lọc theo văn bản"
+
+#: nodepkg/export-form/ExportForm.tsx:283
+msgid "Zip archive"
+msgstr "Tệp nén Zip"
+
+#: nodepkg/export-form/ExportForm.tsx:326
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
+msgid "Save"
+msgstr "Lưu"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
+msgid "Cancel"
+msgstr "Hủy"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
+msgid "Are you sure?"
+msgstr "Bạn có chắc không?"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
+msgid "Unsaved changes will be lost if you close the window."
+msgstr "Các thay đổi chưa lưu sẽ bị mất nếu bạn đóng cửa sổ."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:38
+msgid "Loading..."
+msgstr "Đang tải..."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
+msgid "OK"
+msgstr "OK"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+msgid "Feature saved"
+msgstr "Đã lưu đối tượng"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:44
+msgid "No changes to save"
+msgstr "Không có thay đổi để lưu"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:22
+msgid "Open table settings"
+msgstr "Mở cài đặt bảng"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:23
+msgid "Refresh table"
+msgstr "Làm mới bảng"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:26
+msgid "Open"
+msgstr "Mở"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+msgid "Open on a new page"
+msgstr "Mở trên trang mới"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:28
+msgid "Delete"
+msgstr "Xóa"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:29
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:30
+msgid "Edit on a new page"
+msgstr "Chỉnh sửa trên trang mới"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:32
+msgid "Search..."
+msgstr "Tìm kiếm..."
+
+#: nodepkg/feature-grid/FeatureTable.tsx:95
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:53
+msgid "Last changed"
+msgstr "Thay đổi gần nhất"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:82 view.py:92
+#: view.py:179
+msgid "Save as"
+msgstr "Lưu thành"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:31
+msgid "Advanced Export"
+msgstr "Xuất nâng cao"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:32
+msgid "Quick Export"
+msgstr "Xuất nhanh"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:33
+msgid "Filters are applied"
+msgstr "Đã áp dụng bộ lọc"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:20
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
+msgid "Display name"
+msgstr "Tên hiển thị"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:21
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
+msgid "Keyname"
+msgstr "Tên khóa"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:22
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
+msgid "Type"
+msgstr "Loại"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
+msgid "Lookup table"
+msgstr "Bảng tra cứu"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
+msgid "Text search"
+msgstr "Tìm kiếm văn bản"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:26
+msgid "Label attribute"
+msgstr "Thuộc tính nhãn"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
+msgid "Please select"
+msgstr "Vui lòng chọn"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:29
+msgid "Not used"
+msgstr "Không sử dụng"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:113
+msgid "Field"
+msgstr "Trường"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:46
+msgid "Load geometry info..."
+msgstr "Đang tải thông tin hình học..."
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:55
+msgid "Failed to get information about the geometry"
+msgstr "Không thể lấy thông tin về hình học"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:34
+msgid "Perimeter"
+msgstr "Chu vi"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:35
+msgid "Length"
+msgstr "Chiều dài"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:43
+msgid "Area"
+msgstr "Diện tích"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:52
+msgid "Geometry type"
+msgstr "Loại hình học"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:60
+msgid "Extent (xMin)"
+msgstr "Phạm vi (xMin)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:64
+msgid "Extent (yMin)"
+msgstr "Phạm vi (yMin)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:68
+msgid "Extent (xMax)"
+msgstr "Phạm vi (xMax)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:72
+msgid "Extent (yMax)"
+msgstr "Phạm vi (yMax)"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:11
+msgid "Feature versioning"
+msgstr "Phiên bản hóa đối tượng"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+msgid "Disable feature versioning?"
+msgstr "Tắt phiên bản hóa đối tượng?"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
+msgid ""
+"Turning off feature versioning will truncate the history and keep only the "
+"latest state."
+msgstr ""
+"Tắt phiên bản hóa sẽ xóa lịch sử và chỉ giữ lại trạng thái mới nhất."
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:50
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: transaction/exception.py:7
+msgid "Transaction not found"
+msgstr "Không tìm thấy giao dịch"
+
+#: transaction/exception.py:12
+msgid "Operation conflict in transaction"
+msgstr "Xung đột thao tác trong giao dịch"
+
+#: transaction/exception.py:20
+msgid "Transaction not committed"
+msgstr "Giao dịch chưa được xác nhận"
+
+#: versioning/exception.py:17
+msgid "Not implemented for feature versioning"
+msgstr "Chưa được triển khai cho phiên bản hóa đối tượng"
+
+#: versioning/exception.py:18
+msgid ""
+"This operation cannot be performed on a resource with feature versioning "
+"enabled. Disable feature versioning for the resource first, and then try "
+"again."
+msgstr ""
+"Không thể thực hiện thao tác này trên tài nguyên đã bật phiên bản hóa đối tượng. Hãy tắt phiên bản hóa trước rồi thử lại."
+
+#: versioning/exception.py:27
+msgid "Feature versioning required"
+msgstr "Yêu cầu phiên bản hóa đối tượng"
+
+#: versioning/exception.py:32
+msgid "Feature versioning is not supported for this resource."
+msgstr "Tài nguyên này không hỗ trợ phiên bản hóa đối tượng."
+
+#: versioning/exception.py:34
+msgid "Feature versioning is not enabled for this resource."
+msgstr "Tài nguyên này chưa bật phiên bản hóa đối tượng."
+
+#: versioning/exception.py:41
+msgid "Epoch required"
+msgstr "Yêu cầu epoch"
+
+#: versioning/exception.py:45
+msgid "Epoch mismatch"
+msgstr "Epoch không khớp"
+
+#: versioning/exception.py:55
+msgid "Version out of range"
+msgstr "Phiên bản ngoài phạm vi"
+
+#: versioning/exception.py:65
+msgid "Invalid range"
+msgstr "Khoảng không hợp lệ"
+
+#: view.py:55 view.py:70
+msgid "Feature #%d"
+msgstr "Đối tượng #%d"
+
+#: view.py:99
+msgid "MVT Vector Tiles"
+msgstr "Tile vector MVT"
+
+#: view.py:100
+msgid ""
+"The Mapbox Vector Tile is an efficient encoding for map data into vector "
+"tiles that can be rendered dynamically."
+msgstr ""
+"Tile vector MVT là phương pháp mã hóa dữ liệu bản đồ hiệu quả thành các tile vector có thể hiển thị động."
+
+#: view.py:163
+msgid "Features"
+msgstr "Các đối tượng"
+
+#: view.py:168
+msgid "Table"

@@ -1,0 +1,372 @@
+#: api.py:82
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr "Thuộc tính '%s' của đối tượng hệ thống không thể thay đổi."
+
+#: api.py:89
+msgid "Principal '%s' already exists."
+msgstr "Đối tượng '%s' đã tồn tại."
+
+#: api.py:91
+msgid "Principal with full name '%s' already exists."
+msgstr "Đối tượng với tên đầy đủ '%s' đã tồn tại."
+
+#: api.py:161
+msgid "Password is not set."
+msgstr "Chưa đặt mật khẩu."
+
+#: api.py:606
+msgid "User '%s' can't be a member of a group."
+msgstr "Người dùng '%s' không thể là thành viên của nhóm."
+
+#: api.py:612
+msgid "System principals can't be deleted."
+msgstr "Không thể xóa đối tượng hệ thống."
+
+#: api.py:627
+msgid "User is referenced with resources"
+msgstr "Người dùng được liên kết với tài nguyên"
+
+#: api.py:629
+msgid "Group is referenced with resources"
+msgstr "Nhóm được liên kết với tài nguyên"
+
+#: api.py:635
+msgid "Administrator required"
+msgstr "Yêu cầu quản trị viên"
+
+#: api.py:636
+msgid "The 'administrators' group must have at least one enabled member."
+msgstr "Nhóm 'administrators' phải có ít nhất một thành viên được kích hoạt."
+
+#: component.py:48
+msgid "Administrator"
+msgstr "Quản trị viên"
+
+#: component.py:261
+msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgstr "Đã đạt số lượng người dùng tối đa. Giới hạn người dùng của gói hiện tại là %d."
+
+#: exception.py:7
+msgid "Invalid authorization header"
+msgstr "Tiêu đề xác thực không hợp lệ"
+
+#: exception.py:12
+msgid "Invalid credentials"
+msgstr "Thông tin đăng nhập không hợp lệ"
+
+#: exception.py:17
+msgid "User is disabled"
+msgstr "Người dùng đã bị vô hiệu hóa"
+
+#: exception.py:22
+msgid "Session authentication required"
+msgstr "Yêu cầu xác thực phiên"
+
+#: exception.py:27
+msgid "Invalid authorization link"
+msgstr "Liên kết xác thực không hợp lệ"
+
+#: model.py:96
+msgid "Guest"
+msgstr "Khách"
+
+#: model.py:97
+msgid "Everyone"
+msgstr "Mọi người"
+
+#: model.py:98
+msgid "Authenticated"
+msgstr "Đã xác thực"
+
+#: model.py:99
+msgid "Owner"
+msgstr "Chủ sở hữu"
+
+#: model.py:206
+msgid "Administrators"
+msgstr "Quản trị viên"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
+msgid "Delete group?"
+msgstr "Xóa nhóm?"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
+msgid "Group deleted"
+msgstr "Đã xóa nhóm"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
+msgid "Full name"
+msgstr "Họ và tên"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
+msgid "Group name"
+msgstr "Tên nhóm"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
+msgid "New users"
+msgstr "Người dùng mới"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
+msgid "Yes"
+msgstr "Có"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
+msgid "No"
+msgstr "Không"
+
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:298 view.py:391
+msgid "Users"
+msgstr "Người dùng"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr "Quyền"
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
+msgid "{dn} mapping"
+msgstr "Ánh xạ {dn}"
+
+#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
+msgid "Description"
+msgstr "Mô tả"
+
+#: nodepkg/login/LoginForm.tsx:20
+msgid "Sign in with {}"
+msgstr "Đăng nhập với {}"
+
+#: nodepkg/login/LoginForm.tsx:21 view.py:33
+msgid "Sign in to Web GIS"
+msgstr "Đăng nhập vào Web GIS"
+
+#: nodepkg/login/LoginForm.tsx:22 nodepkg/session-invite/SessionInvite.tsx:18
+msgid "Sign in"
+msgstr "Đăng nhập"
+
+#: nodepkg/login/LoginForm.tsx:37 nodepkg/settings-form/SettingsForm.tsx:53
+#: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:48
+msgid "Login"
+msgstr "Tên đăng nhập"
+
+#: nodepkg/login/LoginForm.tsx:42 nodepkg/user-browse/UserBrowse.tsx:26
+#: nodepkg/user-widget/UserWidget.tsx:55
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: nodepkg/login/LoginForm.tsx:100
+msgid "or using login and password"
+msgstr "hoặc sử dụng tên đăng nhập và mật khẩu"
+
+#: nodepkg/oauth.tsx:26
+msgid "Manage team"
+msgstr "Quản lý nhóm"
+
+#: nodepkg/settings-form/SettingsForm.tsx:27
+msgid "Account bound"
+msgstr "Tài khoản đã liên kết"
+
+#: nodepkg/settings-form/SettingsForm.tsx:38
+msgid "Bind account"
+msgstr "Liên kết tài khoản"
+
+#: nodepkg/settings-form/SettingsForm.tsx:40
+msgid "Account not bound"
+msgstr "Tài khoản chưa liên kết"
+
+#: nodepkg/settings-form/SettingsForm.tsx:61 nodepkg/user-widget/UserWidget.tsx:106
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: nodepkg/settings-form/SettingsForm.tsx:77
+msgid "Saved"
+msgstr "Đã lưu"
+
+#: nodepkg/user-browse/UserBrowse.tsx:22 nodepkg/user-widget/UserWidget.tsx:83
+msgid "Disabled"
+msgstr "Đã vô hiệu hóa"
+
+#: nodepkg/user-browse/UserBrowse.tsx:23
+msgid "Enabled"
+msgstr "Đã kích hoạt"
+
+#: nodepkg/user-browse/UserBrowse.tsx:29
+msgid "Last activity"
+msgstr "Hoạt động gần nhất"
+
+#: nodepkg/user-browse/UserBrowse.tsx:30
+msgid "Status"
+msgstr "Trạng thái"
+
+#: nodepkg/user-browse/UserBrowse.tsx:34
+msgid "Users with a password can sign in with login and password."
+msgstr "Người dùng có mật khẩu có thể đăng nhập bằng tên đăng nhập và mật khẩu."
+
+#: nodepkg/user-browse/UserBrowse.tsx:35
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr "Người dùng liên kết với {dn} có thể đăng nhập bằng {dn}."
+
+#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
+msgid "Delete user?"
+msgstr "Xóa người dùng?"
+
+#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:23
+msgid "User deleted"
+msgstr "Đã xóa người dùng"
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
+msgid ""
+"Your team members won't be shown here until their first logon. Set \"New "
+"users\" flag for a group to automatically assign new user to this group. You "
+"may also modify permission for authenticated users to manage access for your "
+"team members."
+msgstr ""
+"Thành viên nhóm của bạn sẽ không hiển thị ở đây cho đến khi họ đăng nhập lần đầu. Đặt cờ \"Người dùng mới\" cho một nhóm để tự động thêm người dùng mới vào nhóm này. Bạn cũng có thể chỉnh sửa quyền cho người dùng đã xác thực để quản lý quyền truy cập cho thành viên nhóm."
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Disable"
+msgstr "Vô hiệu hóa"
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Enable"
+msgstr "Kích hoạt"
+
+#: nodepkg/user-widget/UserWidget.tsx:59 nodepkg/user-widget/UserWidget.tsx:64
+msgid "Enter new password here"
+msgstr "Nhập mật khẩu mới tại đây"
+
+#: nodepkg/user-widget/UserWidget.tsx:77
+msgid "Authorization link"
+msgstr "Liên kết xác thực"
+
+#: nodepkg/user-widget/UserWidget.tsx:89 view.py:332 view.py:397
+msgid "Groups"
+msgstr "Nhóm"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
+msgid ""
+"Consider adding {name} user to your team instead of creating a new user with "
+"a password."
+msgstr ""
+"Hãy cân nhắc thêm người dùng {name} vào nhóm thay vì tạo người dùng mới với mật khẩu."
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
+msgid "Keep existing"
+msgstr "Giữ nguyên"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
+msgid "Assign new"
+msgstr "Gán mới"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
+msgid "Turn off"
+msgstr "Tắt"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
+msgid "The generated link will be available after saving."
+msgstr "Liên kết được tạo sẽ khả dụng sau khi lưu."
+
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
+msgid "{name} only"
+msgstr "Chỉ {name}"
+
+#: oauth.py:323
+msgid "{} binding error"
+msgstr "Lỗi liên kết {}"
+
+#: oauth.py:324
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
+"in using this account instead of binding it."
+msgstr ""
+"Tài khoản {dn} ({sub}) này đã được liên kết với người dùng khác ({id}). Hãy đăng nhập bằng tài khoản này thay vì liên kết lại."
+
+#: oauth.py:639
+msgid "OAuth authorization error"
+msgstr "Lỗi xác thực OAuth"
+
+#: oauth.py:644
+msgid "Invalid OAuth token"
+msgstr "Mã OAuth không hợp lệ"
+
+#: oauth.py:649
+msgid "Invalid OAuth scope"
+msgstr "Phạm vi OAuth không hợp lệ"
+
+#: oauth.py:654
+msgid "OAuth password grant type failed"
+msgstr "Không thể xác thực bằng mật khẩu OAuth"
+
+#: oauth.py:659
+msgid "OAuth token refresh failed"
+msgstr "Làm mới mã OAuth thất bại"
+
+#: oauth.py:664
+msgid "OAuth access token is expired"
+msgstr "Mã truy cập OAuth đã hết hạn"
+
+#: permission.py:12
+msgid "View"
+msgstr "Xem"
+
+#: permission.py:13
+msgid "Manage"
+msgstr "Quản lý"
+
+#: permission.py:39 view.py:387
+msgid "Groups and users"
+msgstr "Nhóm và người dùng"
+
+#: view.py:46
+msgid "Invitation session"
+msgstr "Phiên mời"
+
+#: view.py:64
+msgid "Session not found."
+msgstr "Không tìm thấy phiên."
+
+#: view.py:68
+msgid "Invalid 'expires' parameter."
+msgstr "Tham số 'expires' không hợp lệ."
+
+#: view.py:70
+msgid "Session expired."
+msgstr "Phiên đã hết hạn."
+
+#: view.py:89
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
+"Không thể xác thực bằng liên kết xác thực đã cung cấp. Vui lòng kiểm tra liên kết và liên hệ quản trị viên."
+
+#: view.py:100
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr "Quản trị viên không được phép sử dụng liên kết xác thực."
+
+#: view.py:139
+msgid "Team membership required"
+msgstr "Yêu cầu là thành viên nhóm"
+
+#: view.py:140
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and "
+"ask to be added to the team."
+msgstr ""
+"Bạn không phải là thành viên của nhóm Web GIS này. Vui lòng liên hệ quản trị viên để được thêm vào nhóm."
+
+#: view.py:291
+msgid "User settings"
+msgstr "Cài đặt người dùng"
+
+#: view.py:314
+msgid "Create new user"
+msgstr "Tạo người dùng mới"
+
+#: view.py:348
+msgid "Create new group"
+msgstr "Tạo nhóm mới"
