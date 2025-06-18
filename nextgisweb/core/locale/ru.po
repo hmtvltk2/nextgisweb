@@ -1,4 +1,8 @@
 
+msgid ""
+msgstr ""
+"Language: vi"
+"Content-Type: text/plain; charset=UTF-8"
 
 #: component.py:94
 msgid "NextGIS geoinformation system"
