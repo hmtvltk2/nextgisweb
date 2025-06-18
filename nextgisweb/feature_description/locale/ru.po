@@ -2,8 +2,8 @@
 #: nodepkg/description-editor/plugin.ts:8
 #: nodepkg/description-view/DescriptionView.tsx:15
 msgid "Description"
-msgstr "Описание"
+msgstr "Mô tả"
 
 #: util.py:19
 msgid "Invalid ZIP archive."
-msgstr "Некорректный ZIP-архив."
+msgstr "Tệp ZIP không hợp lệ."

@@ -1,219 +1,224 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:82
 msgid "The '%s' attribute of the system principal can't be changed."
-msgstr "Атрибут '%s' системного субъекта не может быть изменен."
+msgstr "Thuộc tính '%s' của đối tượng hệ thống không thể thay đổi."
 
 #: api.py:89
 msgid "Principal '%s' already exists."
-msgstr "Субъект '%s' уже существует."
+msgstr "Đối tượng '%s' đã tồn tại."
 
 #: api.py:91
 msgid "Principal with full name '%s' already exists."
-msgstr "Субъект с наименованием '%s' уже существует."
+msgstr "Đối tượng với tên đầy đủ '%s' đã tồn tại."
 
 #: api.py:161
 msgid "Password is not set."
-msgstr "Пароль не установлен."
+msgstr "Chưa đặt mật khẩu."
 
 #: api.py:606
 msgid "User '%s' can't be a member of a group."
-msgstr "Пользователь '%s' не может быть участником группы."
+msgstr "Người dùng '%s' không thể là thành viên của nhóm."
 
 #: api.py:612
 msgid "System principals can't be deleted."
-msgstr "Системные субъекты не могут быть удалены."
+msgstr "Không thể xóa đối tượng hệ thống."
 
 #: api.py:627
 msgid "User is referenced with resources"
-msgstr "Пользователь связан с ресурсами"
+msgstr "Người dùng được liên kết với tài nguyên"
 
 #: api.py:629
 msgid "Group is referenced with resources"
-msgstr "Группа связана с ресурсами"
+msgstr "Nhóm được liên kết với tài nguyên"
 
 #: api.py:635
 msgid "Administrator required"
-msgstr "Только для администраторов"
+msgstr "Yêu cầu quản trị viên"
 
 #: api.py:636
 msgid "The 'administrators' group must have at least one enabled member."
-msgstr "Группа 'administrators' должна иметь хотя бы одного включенного участника."
+msgstr "Nhóm 'administrators' phải có ít nhất một thành viên được kích hoạt."
 
 #: component.py:48
 msgid "Administrator"
-msgstr "Администратор"
+msgstr "Quản trị viên"
 
 #: component.py:261
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
-msgstr "Превышено максимальное количество пользователей. Лимит текущего плана - %d."
+msgstr "Đã đạt số lượng người dùng tối đa. Giới hạn người dùng của gói hiện tại là %d."
 
 #: exception.py:7
 msgid "Invalid authorization header"
-msgstr "Некорректный заголовок авторизации"
+msgstr "Tiêu đề xác thực không hợp lệ"
 
 #: exception.py:12
 msgid "Invalid credentials"
-msgstr "Неверные данные учетной записи"
+msgstr "Thông tin đăng nhập không hợp lệ"
 
 #: exception.py:17
 msgid "User is disabled"
-msgstr "Пользователь заблокирован"
+msgstr "Người dùng đã bị vô hiệu hóa"
 
 #: exception.py:22
 msgid "Session authentication required"
-msgstr "Необходима авторизация сессии"
+msgstr "Yêu cầu xác thực phiên"
 
 #: exception.py:27
 msgid "Invalid authorization link"
-msgstr "Некорректная ссылка для авторизации"
+msgstr "Liên kết xác thực không hợp lệ"
 
 #: model.py:96
 msgid "Guest"
-msgstr "Гость"
+msgstr "Khách"
 
 #: model.py:97
 msgid "Everyone"
-msgstr "Любой пользователь"
+msgstr "Mọi người"
 
 #: model.py:98
 msgid "Authenticated"
-msgstr "Прошедший проверку"
+msgstr "Đã xác thực"
 
 #: model.py:99
 msgid "Owner"
-msgstr "Владелец"
+msgstr "Chủ sở hữu"
 
 #: model.py:206
 msgid "Administrators"
-msgstr "Администраторы"
+msgstr "Quản trị viên"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
 msgid "Delete group?"
-msgstr "Удалить группу?"
+msgstr "Xóa nhóm?"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
 msgid "Group deleted"
-msgstr "Группа удалена"
+msgstr "Đã xóa nhóm"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
 #: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
 msgid "Full name"
-msgstr "Полное имя"
+msgstr "Họ và tên"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
 msgid "Group name"
-msgstr "Имя группы"
+msgstr "Tên nhóm"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
 msgid "New users"
-msgstr "Новые пользователи"
+msgstr "Người dùng mới"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:27
 msgid "Yes"
-msgstr "Да"
+msgstr "Có"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:28
 msgid "No"
-msgstr "Нет"
+msgstr "Không"
 
 #: nodepkg/group-widget/GroupWidget.tsx:41 view.py:298 view.py:391
 msgid "Users"
-msgstr "Пользователи"
+msgstr "Người dùng"
 
 #: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
 msgid "Permissions"
-msgstr "Права"
+msgstr "Quyền"
 
 #: nodepkg/group-widget/GroupWidget.tsx:65
 msgid "{dn} mapping"
-msgstr "{dn} маппинг"
+msgstr "Ánh xạ {dn}"
 
 #: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
 msgid "Description"
-msgstr "Описание"
+msgstr "Mô tả"
 
 #: nodepkg/login/LoginForm.tsx:20
 msgid "Sign in with {}"
-msgstr "Войти через {}"
+msgstr "Đăng nhập với {}"
 
 #: nodepkg/login/LoginForm.tsx:21 view.py:33
 msgid "Sign in to Web GIS"
-msgstr "Войти в Веб ГИС"
+msgstr "Đăng nhập vào Web GIS"
 
 #: nodepkg/login/LoginForm.tsx:22 nodepkg/session-invite/SessionInvite.tsx:18
 msgid "Sign in"
-msgstr "Войти"
+msgstr "Đăng nhập"
 
 #: nodepkg/login/LoginForm.tsx:37 nodepkg/settings-form/SettingsForm.tsx:53
 #: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:48
 msgid "Login"
-msgstr "Логин"
+msgstr "Tên đăng nhập"
 
 #: nodepkg/login/LoginForm.tsx:42 nodepkg/user-browse/UserBrowse.tsx:26
 #: nodepkg/user-widget/UserWidget.tsx:55
 msgid "Password"
-msgstr "Пароль"
+msgstr "Mật khẩu"
 
 #: nodepkg/login/LoginForm.tsx:100
 msgid "or using login and password"
-msgstr "или используя логин и пароль"
+msgstr "hoặc sử dụng tên đăng nhập và mật khẩu"
 
 #: nodepkg/oauth.tsx:26
 msgid "Manage team"
-msgstr "Управлять командой"
+msgstr "Quản lý nhóm"
 
 #: nodepkg/settings-form/SettingsForm.tsx:27
 msgid "Account bound"
-msgstr "Аккаунт привязан"
+msgstr "Tài khoản đã liên kết"
 
 #: nodepkg/settings-form/SettingsForm.tsx:38
 msgid "Bind account"
-msgstr "Привязать аккаунт"
+msgstr "Liên kết tài khoản"
 
 #: nodepkg/settings-form/SettingsForm.tsx:40
 msgid "Account not bound"
-msgstr "Аккаунт не привязан"
+msgstr "Tài khoản chưa liên kết"
 
 #: nodepkg/settings-form/SettingsForm.tsx:61 nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
-msgstr "Язык"
+msgstr "Ngôn ngữ"
 
 #: nodepkg/settings-form/SettingsForm.tsx:77
 msgid "Saved"
-msgstr "Сохранено"
+msgstr "Đã lưu"
 
 #: nodepkg/user-browse/UserBrowse.tsx:22 nodepkg/user-widget/UserWidget.tsx:83
 msgid "Disabled"
-msgstr "Отключен"
+msgstr "Đã vô hiệu hóa"
 
 #: nodepkg/user-browse/UserBrowse.tsx:23
 msgid "Enabled"
-msgstr "Включен"
+msgstr "Đã kích hoạt"
 
 #: nodepkg/user-browse/UserBrowse.tsx:29
 msgid "Last activity"
-msgstr "Последняя активность"
+msgstr "Hoạt động gần nhất"
 
 #: nodepkg/user-browse/UserBrowse.tsx:30
 msgid "Status"
-msgstr "Статус"
+msgstr "Trạng thái"
 
 #: nodepkg/user-browse/UserBrowse.tsx:34
 msgid "Users with a password can sign in with login and password."
-msgstr "Пользователи с паролем могут войти используя логин и пароль."
+msgstr "Người dùng có mật khẩu có thể đăng nhập bằng tên đăng nhập và mật khẩu."
 
 #: nodepkg/user-browse/UserBrowse.tsx:35
 msgid "Users bound to {dn} can sign in with {dn}."
-msgstr "Пользователи связанные с {dn} могут войти через {dn}."
+msgstr "Người dùng liên kết với {dn} có thể đăng nhập bằng {dn}."
 
 #: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
 msgid "Delete user?"
-msgstr "Удалить пользователя?"
+msgstr "Xóa người dùng?"
 
 #: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:23
 msgid "User deleted"
-msgstr "Пользователь удален"
+msgstr "Đã xóa người dùng"
 
 #: nodepkg/user-browse/UserBrowse.tsx:122
 msgid ""
@@ -222,159 +227,151 @@ msgid ""
 "may also modify permission for authenticated users to manage access for your "
 "team members."
 msgstr ""
-"Участники вашей команды не будут показаны в списке до их первого входа. "
-"Установите флаг \"Новые пользователи\" для группы для её автоматического "
-"назначения пользователю. Вы также можете редактировать права для "
-"пользователей прошедших аутентификацию для управления правами участников "
-"команды."
+"Thành viên nhóm của bạn sẽ không hiển thị ở đây cho đến khi họ đăng nhập lần đầu. Đặt cờ \"Người dùng mới\" cho một nhóm để tự động thêm người dùng mới vào nhóm này. Bạn cũng có thể chỉnh sửa quyền cho người dùng đã xác thực để quản lý quyền truy cập cho thành viên nhóm."
 
 #: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
 msgid "Disable"
-msgstr "Отключить"
+msgstr "Vô hiệu hóa"
 
 #: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
 msgid "Enable"
-msgstr "Включить"
+msgstr "Kích hoạt"
 
 #: nodepkg/user-widget/UserWidget.tsx:59 nodepkg/user-widget/UserWidget.tsx:64
 msgid "Enter new password here"
-msgstr "Для изменения пароля заполните это поле"
+msgstr "Nhập mật khẩu mới tại đây"
 
 #: nodepkg/user-widget/UserWidget.tsx:77
 msgid "Authorization link"
-msgstr "Авторизация по ссылке"
+msgstr "Liên kết xác thực"
 
 #: nodepkg/user-widget/UserWidget.tsx:89 view.py:332 view.py:397
 msgid "Groups"
-msgstr "Группы"
+msgstr "Nhóm"
 
 #: nodepkg/user-widget/UserWidget.tsx:126
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
 msgstr ""
-"Можно добавить пользователя {name} в вашу команду вместо создания нового "
-"пользователя с паролем."
+"Hãy cân nhắc thêm người dùng {name} vào nhóm thay vì tạo người dùng mới với mật khẩu."
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
 #: nodepkg/user-widget/UserWidgetPassword.tsx:10
 msgid "Keep existing"
-msgstr "Оставить существующий"
+msgstr "Giữ nguyên"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
 #: nodepkg/user-widget/UserWidgetPassword.tsx:14
 msgid "Assign new"
-msgstr "Назначить новый"
+msgstr "Gán mới"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
 #: nodepkg/user-widget/UserWidgetPassword.tsx:20
 msgid "Turn off"
-msgstr "Выключить"
+msgstr "Tắt"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
 msgid "The generated link will be available after saving."
-msgstr "Сгенерированная ссылка будет доступна после сохранения."
+msgstr "Liên kết được tạo sẽ khả dụng sau khi lưu."
 
 #: nodepkg/user-widget/UserWidgetPassword.tsx:19
 msgid "{name} only"
-msgstr "Только {name}"
+msgstr "Chỉ {name}"
 
 #: oauth.py:323
 msgid "{} binding error"
-msgstr "Ошибка привязки {}"
+msgstr "Lỗi liên kết {}"
 
 #: oauth.py:324
 msgid ""
 "This {dn} account ({sub}) is already bound to the different user ({id}). Log "
 "in using this account instead of binding it."
 msgstr ""
-"Этот аккаунт {dn} ({sub}) уже привязан к другому пользователю ({id}). Войдите"
-" с использованием этого аккаунта вместо привязки."
+"Tài khoản {dn} ({sub}) này đã được liên kết với người dùng khác ({id}). Hãy đăng nhập bằng tài khoản này thay vì liên kết lại."
 
 #: oauth.py:639
 msgid "OAuth authorization error"
-msgstr "Ошибка авторизации OAuth"
+msgstr "Lỗi xác thực OAuth"
 
 #: oauth.py:644
 msgid "Invalid OAuth token"
-msgstr "Некорректный токен OAuth"
+msgstr "Mã OAuth không hợp lệ"
 
 #: oauth.py:649
 msgid "Invalid OAuth scope"
-msgstr "Некорректный скоуп OAuth"
+msgstr "Phạm vi OAuth không hợp lệ"
 
 #: oauth.py:654
 msgid "OAuth password grant type failed"
-msgstr "Не удалось получить доступ по паролю OAuth"
+msgstr "Không thể xác thực bằng mật khẩu OAuth"
 
 #: oauth.py:659
 msgid "OAuth token refresh failed"
-msgstr "Не удалось выполнить обновление токена OAuth"
+msgstr "Làm mới mã OAuth thất bại"
 
 #: oauth.py:664
 msgid "OAuth access token is expired"
-msgstr "Срок действия токена OAuth истек"
+msgstr "Mã truy cập OAuth đã hết hạn"
 
 #: permission.py:12
 msgid "View"
-msgstr "Просмотр"
+msgstr "Xem"
 
 #: permission.py:13
 msgid "Manage"
-msgstr "Управление"
+msgstr "Quản lý"
 
 #: permission.py:39 view.py:387
 msgid "Groups and users"
-msgstr "Группы и пользователи"
+msgstr "Nhóm và người dùng"
 
 #: view.py:46
 msgid "Invitation session"
-msgstr "Сессия по приглашению"
+msgstr "Phiên mời"
 
 #: view.py:64
 msgid "Session not found."
-msgstr "Сессия не найдена."
+msgstr "Không tìm thấy phiên."
 
 #: view.py:68
 msgid "Invalid 'expires' parameter."
-msgstr "Некорректный параметр 'expires'."
+msgstr "Tham số 'expires' không hợp lệ."
 
 #: view.py:70
 msgid "Session expired."
-msgstr "Сессия устарела."
+msgstr "Phiên đã hết hạn."
 
 #: view.py:89
 msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
 msgstr ""
-"Не удалось выполнить авторизацию с использованием указанной авторизационной "
-"ссылки. Пожалуйста, проверьте ссылку и свяжитесь с администратором."
+"Không thể xác thực bằng liên kết xác thực đã cung cấp. Vui lòng kiểm tra liên kết và liên hệ quản trị viên."
 
 #: view.py:100
 msgid "Usage of authorization link is forbidden for administrators."
-msgstr "Использование авторизационных ссылок запрещено для администраторов."
+msgstr "Quản trị viên không được phép sử dụng liên kết xác thực."
 
 #: view.py:139
 msgid "Team membership required"
-msgstr "Необходимо участие в команде"
+msgstr "Yêu cầu là thành viên nhóm"
 
 #: view.py:140
 msgid ""
 "You are not a member of this Web GIS team. Contact Web GIS administrator and "
 "ask to be added to the team."
 msgstr ""
-"Вы не являетесь участником команды этой Веб ГИС. Свяжитесь с администратором "
-"Веб ГИС для добавления в команду."
+"Bạn không phải là thành viên của nhóm Web GIS này. Vui lòng liên hệ quản trị viên để được thêm vào nhóm."
 
 #: view.py:291
 msgid "User settings"
-msgstr "Настройки пользователя"
+msgstr "Cài đặt người dùng"
 
 #: view.py:314
 msgid "Create new user"
-msgstr "Создать нового пользователя"
+msgstr "Tạo người dùng mới"
 
 #: view.py:348
 msgid "Create new group"
-msgstr "Создать новую группу"
+msgstr "Tạo nhóm mới"

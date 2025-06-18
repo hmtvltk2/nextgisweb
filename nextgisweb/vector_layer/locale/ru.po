@@ -1,106 +1,111 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:23 model.py:710
 msgid "GDAL library failed to open file."
-msgstr "Библиотеке GDAL не удалось открыть файл."
+msgstr "Thư viện GDAL không thể mở tệp."
 
 #: kind_of_data.py:8
 msgid "Vector layer features"
-msgstr "Объекты векторного слоя"
+msgstr "Đối tượng lớp vector"
 
 #: model.py:71 nodepkg/resource-widget/Widget.tsx:54
 #: nodepkg/resource-widget/Widget.tsx:184
 msgid "Point"
-msgstr "Точка"
+msgstr "Điểm"
 
 #: model.py:72 nodepkg/resource-widget/Widget.tsx:55
 #: nodepkg/resource-widget/Widget.tsx:185
 msgid "Line"
-msgstr "Линия"
+msgstr "Đường"
 
 #: model.py:73 nodepkg/resource-widget/Widget.tsx:56
 #: nodepkg/resource-widget/Widget.tsx:186
 msgid "Polygon"
-msgstr "Полигон"
+msgstr "Đa giác"
 
 #: model.py:74 nodepkg/resource-widget/Widget.tsx:187
 msgid "Multipoint"
-msgstr "Мультиточка"
+msgstr "Đa điểm"
 
 #: model.py:75 nodepkg/resource-widget/Widget.tsx:188
 msgid "Multiline"
-msgstr "Мультилиния"
+msgstr "Đa đường"
 
 #: model.py:76 nodepkg/resource-widget/Widget.tsx:189
 msgid "Multipolygon"
-msgstr "Мультиполигон"
+msgstr "Đa đa giác"
 
 #: model.py:77 nodepkg/resource-widget/Widget.tsx:190
 msgid "Point Z"
-msgstr "Точка Z"
+msgstr "Điểm Z"
 
 #: model.py:78 nodepkg/resource-widget/Widget.tsx:191
 msgid "Line Z"
-msgstr "Линия Z"
+msgstr "Đường Z"
 
 #: model.py:79 nodepkg/resource-widget/Widget.tsx:192
 msgid "Polygon Z"
-msgstr "Полигон Z"
+msgstr "Đa giác Z"
 
 #: model.py:80 nodepkg/resource-widget/Widget.tsx:193
 msgid "Multipoint Z"
-msgstr "Мультиточка Z"
+msgstr "Đa điểm Z"
 
 #: model.py:81 nodepkg/resource-widget/Widget.tsx:194
 msgid "Multiline Z"
-msgstr "Мультилиния Z"
+msgstr "Đa đường Z"
 
 #: model.py:82 nodepkg/resource-widget/Widget.tsx:195
 msgid "Multipolygon Z"
-msgstr "Мультиполигон Z"
+msgstr "Đa đa giác Z"
 
 #: model.py:131 nodepkg/resource-widget/Widget.tsx:320
 msgid "Vector layer"
-msgstr "Векторный слой"
+msgstr "Lớp vector"
 
 #: model.py:153 nodepkg/resource-widget/Widget.tsx:108
 #: nodepkg/resource-widget/Widget.tsx:285
 msgid "Geometry type"
-msgstr "Тип геометрии"
+msgstr "Loại hình học"
 
 #: model.py:156
 msgid "Feature count"
-msgstr "Количество объектов"
+msgstr "Số lượng đối tượng"
 
 #: model.py:713
 msgid "Unsupport OGR driver: %s."
-msgstr "Драйвер OGR '%s' не поддерживается."
+msgstr "Trình điều khiển OGR không được hỗ trợ: %s."
 
 #: model.py:722
 msgid "Dataset doesn't contain layers."
-msgstr "Набор данных не содержит ни одного слоя."
+msgstr "Tập dữ liệu không chứa lớp nào."
 
 #: model.py:725
 msgid "Dataset contains more than one layer."
-msgstr "Набор данных содержит более одного слоя."
+msgstr "Tập dữ liệu chứa nhiều hơn một lớp."
 
 #: model.py:730
 msgid "Unable to open layer."
-msgstr "Не удалось открыть слой."
+msgstr "Không thể mở lớp."
 
 #: model.py:743
 msgid "Layer doesn't contain coordinate system information."
-msgstr "Слой не содержит информации о системе координат."
+msgstr "Lớp không chứa thông tin hệ tọa độ."
 
 #: nodepkg/resource-widget/Store.tsx:199
 msgid "Confirm deletion of existing features"
-msgstr "Подтвердить удаление существующих объектов"
+msgstr "Xác nhận xóa các đối tượng hiện có"
 
 #: nodepkg/resource-widget/Store.tsx:206
 msgid "Confirm change of geometry type"
-msgstr "Подтвердить изменение типа геометрии"
+msgstr "Xác nhận thay đổi loại hình học"
 
 #: nodepkg/resource-widget/Widget.tsx:31
 msgid "Select a dataset"
-msgstr "Выберите набор данных"
+msgstr "Chọn tập dữ liệu"
 
 #: nodepkg/resource-widget/Widget.tsx:32
 msgid ""
@@ -108,203 +113,199 @@ msgid ""
 "supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
-"Поддерживаемые форматы данных: ESRI Shapefile (zip-архив), GeoPackage, "
-"GeoJSON, GML, KML, CSV или XLSX. Для CSV и XLSX поддерживаются только точки, "
-"координаты должны быть в колонках lat и lon."
+"Hỗ trợ các định dạng: ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV hoặc XLSX. Với CSV và XLSX chỉ hỗ trợ điểm, tọa độ phải nằm ở các cột lat và lon."
 
 #: nodepkg/resource-widget/Widget.tsx:35
 msgid "Files uploaded, post-processing on the server in progress..."
-msgstr "Файлы загружены, выполняется постобработка на сервере..."
+msgstr "Tệp đã tải lên, đang xử lý trên máy chủ..."
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
-msgstr "Если возможно"
+msgstr "Nếu có thể"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
-msgstr "Без потери данных"
+msgstr "Không làm mất dữ liệu"
 
 #: nodepkg/resource-widget/Widget.tsx:47
 msgid "None"
-msgstr "Нет"
+msgstr "Không"
 
 #: nodepkg/resource-widget/Widget.tsx:53 nodepkg/resource-widget/Widget.tsx:62
 #: nodepkg/resource-widget/Widget.tsx:70
 msgid "Auto"
-msgstr "Авто"
+msgstr "Tự động"
 
 #: nodepkg/resource-widget/Widget.tsx:63
 msgid "Yes"
-msgstr "Да"
+msgstr "Có"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "No"
-msgstr "Нет"
+msgstr "Không"
 
 #: nodepkg/resource-widget/Widget.tsx:71
 msgid "Sequence"
-msgstr "Нумерация"
+msgstr "Tuần tự"
 
 #: nodepkg/resource-widget/Widget.tsx:72
 msgid "Field"
-msgstr "Из поля"
+msgstr "Trường"
 
 #: nodepkg/resource-widget/Widget.tsx:100
 msgid "Fix errors"
-msgstr "Исправлять ошибки"
+msgstr "Sửa lỗi"
 
 #: nodepkg/resource-widget/Widget.tsx:104
 msgid "Skip features with unfixable errors"
-msgstr "Пропускать объекты с неустранимыми ошибками"
+msgstr "Bỏ qua đối tượng có lỗi không thể sửa"
 
 #: nodepkg/resource-widget/Widget.tsx:119
 msgid "Skip features with other geometry types"
-msgstr "Пропустить объекты с другими типами геометрий"
+msgstr "Bỏ qua đối tượng có loại hình học khác"
 
 #: nodepkg/resource-widget/Widget.tsx:123
 msgid "Multi-geometry"
-msgstr "Мульти-геометрия"
+msgstr "Đa hình học"
 
 #: nodepkg/resource-widget/Widget.tsx:126
 msgid "Z-coordinate"
-msgstr "Координата Z"
+msgstr "Tọa độ Z"
 
 #: nodepkg/resource-widget/Widget.tsx:129
 msgid "FID source"
-msgstr "Источник FID"
+msgstr "Nguồn FID"
 
 #: nodepkg/resource-widget/Widget.tsx:158
 msgid "Load features from file"
-msgstr "Загрузить объекты из файла"
+msgstr "Tải đối tượng từ tệp"
 
 #: nodepkg/resource-widget/Widget.tsx:159
 msgid "Create empty layer"
-msgstr "Создать пустой слой"
+msgstr "Tạo lớp rỗng"
 
 #: nodepkg/resource-widget/Widget.tsx:161
 msgid "Keep existing layer features"
-msgstr "Оставить существующие объекты"
+msgstr "Giữ lại đối tượng lớp hiện có"
 
 #: nodepkg/resource-widget/Widget.tsx:162
 msgid "Change geometry type"
-msgstr "Изменить тип геометрии"
+msgstr "Thay đổi loại hình học"
 
 #: nodepkg/resource-widget/Widget.tsx:163
 msgid "Replace layer features from file"
-msgstr "Заменить объекты слоя из файла"
+msgstr "Thay thế đối tượng lớp từ tệp"
 
 #: nodepkg/resource-widget/Widget.tsx:164
 msgid "Delete all features from layer"
-msgstr "Удалить все объекты из слоя"
+msgstr "Xóa tất cả đối tượng khỏi lớp"
 
 #: nodepkg/resource-widget/Widget.tsx:180
 msgid "current"
-msgstr "текущий"
+msgstr "hiện tại"
 
 #: nodepkg/resource-widget/Widget.tsx:272
 msgid "Source layer"
-msgstr "Исходный слой"
+msgstr "Lớp nguồn"
 
 #: nodepkg/resource-widget/Widget.tsx:309
 msgid "Advanced options"
-msgstr "Дополнительные параметры"
+msgstr "Tùy chọn nâng cao"
 
 #: ogrloader.py:311
 msgid "Could not determine a geometry type."
-msgstr "Не удалось определить тип геометрии."
+msgstr "Không thể xác định loại hình học."
 
 #: ogrloader.py:313
 msgid "Source layer contains no features satisfying the conditions."
-msgstr "Слой не содержит объектов, удовлетворяющих условиям."
+msgstr "Lớp nguồn không chứa đối tượng nào thỏa mãn điều kiện."
 
 #: ogrloader.py:331
 msgid "Field '%s' is out of int32 range."
-msgstr "Значение поля '%s' находится за пределами диапазона int32."
+msgstr "Trường '%s' vượt quá phạm vi int32."
 
 #: ogrloader.py:339
 msgid "Field '%s' contains non-unique or empty values."
-msgstr "Значение поля '%s' содержит неуникальное или пустое значение."
+msgstr "Trường '%s' chứa giá trị không duy nhất hoặc rỗng."
 
 #: ogrloader.py:356
 msgid "Parameter 'fid_field' is missing."
-msgstr "Отсутствует параметр 'fid_field'"
+msgstr "Thiếu tham số 'fid_field'."
 
 #: ogrloader.py:359
 msgid "Fields %s not found."
-msgstr "Поле %s не найдено"
+msgstr "Không tìm thấy trường %s."
 
 #: ogrloader.py:361
 msgid "None of fields %s are integer."
-msgstr "Ни одно из полей %d не является целочисленным."
+msgstr "Không trường nào trong số %s là số nguyên."
 
 #: ogrloader.py:375
 msgid "Field '%s(?)' encoding is broken."
-msgstr "Кодировка поля '%s(?)' повреждена."
+msgstr "Mã hóa trường '%s(?)' bị lỗi."
 
 #: ogrloader.py:390
 msgid "Unsupported field type: %r."
-msgstr "Тип поля %r не поддерживается."
+msgstr "Không hỗ trợ kiểu trường: %r."
 
 #: ogrloader.py:415
 msgid ""
 "The source layer has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
-"Исходный слой имеет локальную систему координат и не может быть "
-"перепроецирован в целевую."
+"Lớp nguồn có hệ tọa độ cục bộ và không thể chuyển đổi sang hệ tọa độ đích."
 
 #: ogrloader.py:498
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr ""
-"Геометрия объект #%d не может быть перепроецирована в целевую систему "
-"координат."
+"Đối tượng #%d có hình học không thể chuyển đổi sang hệ tọa độ đích."
 
 #: ogrloader.py:544
 msgid "Vector layer cannot be written due to errors."
-msgstr "Векторный слой не может быть записан из-за ошибок."
+msgstr "Không thể ghi lớp vector do có lỗi."
 
 #: ogrloader.py:570
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
-msgstr "Объект (ном. #%d) не содержит поле FID '%s'."
+msgstr "Đối tượng (thứ tự #%d) không có trường FID '%s'."
 
 #: ogrloader.py:574
 msgid "Feature (seq. #%d) FID field '%s' is null."
-msgstr "Объект (ном. #%d) содержит пустое поле FID '%s'."
+msgstr "Đối tượng (thứ tự #%d) trường FID '%s' là null."
 
 #: ogrloader.py:621 ogrloader.py:660
 msgid "Feature #%d has multiple geometries satisfying the conditions."
-msgstr "Объект #%d содержит несколько геометрий, удовлетворяющих условиям."
+msgstr "Đối tượng #%d có nhiều hình học thỏa mãn điều kiện."
 
 #: ogrloader.py:631
 msgid "Feature #%d has unknown geometry type: %d (%s)."
-msgstr "Объект #%d содержит неизвестный тип геометрии: %d (%s)."
+msgstr "Đối tượng #%d có loại hình học không xác định: %d (%s)."
 
 #: ogrloader.py:640
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
-msgstr "Объект #%d содержит неподходящий тип геометрии: %d (%s)."
+msgstr "Đối tượng #%d có loại hình học không phù hợp: %d (%s)."
 
 #: ogrloader.py:678
 msgid "Feature #%d has empty rings."
-msgstr "Объект #%d содержит пустые кольца."
+msgstr "Đối tượng #%d có vòng tròn rỗng."
 
 #: ogrloader.py:689
 msgid "Feature #%d has unclosed rings."
-msgstr "Объект #%d содержит незамкнутые кольца."
+msgstr "Đối tượng #%d có vòng tròn chưa khép kín."
 
 #: ogrloader.py:698
 msgid "Feature #%d has less than 3 points in a polygon ring."
-msgstr "Объект #%d содержит меньше 3-х точек в кольце полигона."
+msgstr "Đối tượng #%d có ít hơn 3 điểm trong một vòng đa giác."
 
 #: ogrloader.py:711
 msgid "Feature #%d contains an empty linestring."
-msgstr "Объект #%d содержит пустую линию."
+msgstr "Đối tượng #%d chứa một đường thẳng rỗng."
 
 #: ogrloader.py:717
 msgid "Feature #%d has less than 2 points in a linestring."
-msgstr "Объект #%d содержит меньше 2-х точек в линии."
+msgstr "Đối tượng #%d có ít hơn 2 điểm trong một đường thẳng."
 
 #: ogrloader.py:734
 msgid "Feature #%d contains a broken encoding of field '%s'."
-msgstr "Объект #%d содержит поврежденную кодировку поля '%s'."
+msgstr "Đối tượng #%d chứa mã hóa bị lỗi của trường '%s'."

@@ -1,36 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
-msgstr "Сервис WFS"
+msgstr "Dịch vụ WFS"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:27
 msgid "Display name"
-msgstr "Наименование"
+msgstr "Tên hiển thị"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:32
 msgid "Keyname"
-msgstr "Ключ"
+msgstr "Tên khóa"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr "Объектов на запрос"
+msgstr "Số đối tượng mỗi yêu cầu"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr "Не заполнено"
+msgstr "Chưa thiết lập"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"
-msgstr "Ресурс"
+msgstr "Tài nguyên"
 
 #: view.py:16
 msgid "Web Feature Service (WFS)"
-msgstr "Web Feature Service (WFS)"
+msgstr "Dịch vụ Web Feature (WFS)"
 
 #: view.py:17
 msgid ""
 "Web Feature Service (WFS) provides an interface allowing requests for "
 "geographical features across the web using platform-independent calls."
 msgstr ""
-"Web Feature Service (WFS) предоставляет интерфейс, позволяющий запрашивать "
-"географические сущности, используя независимые от используемой платформы "
-"вызовы."
+"Dịch vụ Web Feature (WFS) cung cấp một giao diện cho phép truy vấn các đối tượng địa lý qua web bằng các lệnh độc lập với nền tảng."

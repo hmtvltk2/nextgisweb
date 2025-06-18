@@ -1,194 +1,188 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:264
 msgid "Storage management is not enabled on this server."
-msgstr "Управление хранилищем не включено на этом сервере."
+msgstr "Quản lý lưu trữ chưa được bật trên máy chủ này."
 
 #: api.py:350
 msgid ""
 "Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
 "underscores are allowed. The *.ttf or *.otf extension is required."
 msgstr ""
-"Недопустимое имя файла шрифта: '{}'. Разрешены только латинские буквы, цифры,"
-" дефисы и подчеркивания. Требуется расширение *.ttf или *.otf."
+"Tên tệp phông chữ không hợp lệ: '{}'. Chỉ cho phép chữ cái latin, số, dấu gạch ngang và dấu gạch dưới. Yêu cầu phần mở rộng *.ttf hoặc *.otf."
 
 #: api.py:358
 msgid "Font '{0}' is larger than {1} bytes."
-msgstr "Шрифт '{0}' больше {1} байт."
+msgstr "Phông chữ '{0}' lớn hơn {1} byte."
 
 #: api.py:553
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
-"Параметр запроса '{}' не должен содержать дополнительных значений, если "
-"указано 'all'."
+"Tham số truy vấn '{}' không được chứa giá trị bổ sung nếu đã chọn 'all'."
 
 #: api.py:681
 msgid "Got an unsupported MIME type: '{}'."
-msgstr "Получен неподдерживаемый тип MIME: '{}'."
+msgstr "Nhận loại MIME không được hỗ trợ: '{}'."
 
 #: api.py:684
 msgid "64K should be enough for a logo."
-msgstr "64K должно быть достаточно для логотипа."
+msgstr "64K là đủ cho một logo."
 
 #: api.py:856
 msgid "Your Web GIS at nextgis.com"
-msgstr "Ваши карты онлайн на nextgis.com"
+msgstr "Web GIS của bạn tại nextgis.com"
 
 #: component.py:167
 msgid "Request timeout"
-msgstr "Таймаут запроса"
+msgstr "Hết thời gian yêu cầu"
 
 #: component.py:170
 msgid "Enabled"
-msgstr "Включено"
+msgstr "Đã bật"
 
 #: component.py:170
 msgid "Disabled"
-msgstr "Отключено"
+msgstr "Đã tắt"
 
 #: exception.py:218
 msgid "Internal server error"
-msgstr "Внутренняя ошибка сервера"
+msgstr "Lỗi máy chủ nội bộ"
 
 #: exception.py:219
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
 msgstr ""
-"При обработке запроса возникла внутренняя ошибка или сервер настроен "
-"некорректно и не может обработать запрос."
+"Máy chủ gặp lỗi nội bộ hoặc cấu hình sai và không thể hoàn thành yêu cầu của bạn."
 
 #: exception.py:252
 msgid "Bad request"
-msgstr "Некорректный запрос"
+msgstr "Yêu cầu không hợp lệ"
 
 #: exception.py:253
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
-msgstr "Сервер не может выполнить запрос. Возможно, в запросе ошибка."
+msgstr "Máy chủ không thể thực hiện yêu cầu do yêu cầu bị lỗi hoặc không hợp lệ."
 
 #: exception.py:261
 msgid "Payment required"
-msgstr "Необходима оплата"
+msgstr "Yêu cầu thanh toán"
 
 #: exception.py:262
 msgid "Access was denied for financial reasons."
-msgstr "Доступ закрыт по финансовым причинам."
+msgstr "Truy cập bị từ chối vì lý do tài chính."
 
 #: exception.py:267
 msgid "Forbidden"
-msgstr "Доступ запрещен"
+msgstr "Bị cấm"
 
 #: exception.py:268
 msgid "Access was denied to this resource."
-msgstr "У вас нет доступа к этому ресурсу."
+msgstr "Bạn không có quyền truy cập tài nguyên này."
 
 #: exception.py:273
 msgid "Page not found"
-msgstr "Страница не найдена"
+msgstr "Không tìm thấy trang"
 
 #: exception.py:274
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
 msgstr ""
-"Возможно, страница удалена либо в адресе допущена ошибка. Исправьте адрес или"
-" вернитесь на главную страницу и попробуйте найти нужную страницу с помощью "
-"навигации."
+"Trang có thể đã bị xóa hoặc địa chỉ bị sai. Hãy sửa địa chỉ hoặc về trang chủ để tìm lại trang mong muốn."
 
 #: exception.py:282
 msgid "Unprocessable entity"
-msgstr "Необрабатываемая сущность"
+msgstr "Không thể xử lý thực thể"
 
 #: exception.py:283
 msgid "Unable to process the contained instructions."
-msgstr "Невозможно выполнить запрошенную операцию."
+msgstr "Không thể thực hiện thao tác yêu cầu."
 
 #: exception.py:288 exception.py:289
 msgid "Not implemented"
-msgstr "Не реализовано"
+msgstr "Chưa được triển khai"
 
 #: exception.py:294
 msgid "Service unavailable"
-msgstr "Сервис недоступен"
+msgstr "Dịch vụ không khả dụng"
 
 #: exception.py:295
 msgid "The server is currently unavailable. Please try again at a later time."
-msgstr ""
-"В настоящий момент сервер недоступен. Пожалуйста, попробуйте выполнить "
-"действие еще раз через некоторое время."
+msgstr "Máy chủ hiện không khả dụng. Vui lòng thử lại sau."
 
 #: lunkwill.py:25
 msgid "Lunkwill not enabled"
-msgstr "Lunkwill не включен"
+msgstr "Lunkwill chưa được bật"
 
 #: lunkwill.py:26
 msgid "The Lunkwill extension is not configured on this server."
-msgstr "Расширение Lunkwill не настроено на этом сервере."
+msgstr "Tiện ích mở rộng Lunkwill chưa được cấu hình trên máy chủ này."
 
 #: nodepkg/api/error.ts:18 nodepkg/api/error.ts:39
 msgid "Something went wrong."
-msgstr "Что-то пошло не так."
+msgstr "Đã xảy ra lỗi."
 
 #: nodepkg/api/error.ts:19
 msgid "Unknown API error"
-msgstr "Неизвестная ошибка API"
+msgstr "Lỗi API không xác định"
 
 #: nodepkg/api/error.ts:33
 msgid "There is no response from the server or problem connecting to server."
-msgstr ""
-"Не удалось получить ответ от сервера либо в процессе соединения возникла "
-"ошибка."
+msgstr "Không có phản hồi từ máy chủ hoặc có sự cố khi kết nối đến máy chủ."
 
 #: nodepkg/api/error.ts:34
 msgid "Network error"
-msgstr "Сетевая ошибка"
+msgstr "Lỗi mạng"
 
 #: nodepkg/api/error.ts:35
 msgid "Check network connectivity and try again later."
-msgstr "Проверьте сетевое соединение и попробуйте повторить позже."
+msgstr "Kiểm tra kết nối mạng và thử lại sau."
 
 #: nodepkg/api/error.ts:40
 msgid "Unexpected server response"
-msgstr "Неожидаемый ответ сервера"
+msgstr "Phản hồi máy chủ không mong đợi"
 
 #: nodepkg/api/error.ts:68
 msgid "Unexpected error while processing long-running request."
-msgstr "Неожиданная ошибка во время выполнения длительного запроса."
+msgstr "Lỗi không mong muốn khi xử lý yêu cầu kéo dài."
 
 #: nodepkg/api/error.ts:69
 msgid "Long-running request error"
-msgstr "Ошибка длительного запроса"
+msgstr "Lỗi yêu cầu kéo dài"
 
 #: nodepkg/api/error.ts:77
 msgid "Long-running request was cancelled."
-msgstr "Длительный запрос был отменен."
+msgstr "Yêu cầu kéo dài đã bị hủy."
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:23
 msgid "Filename"
-msgstr "Имя файла"
+msgstr "Tên tệp"
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:38
 msgid "Timestamp (UTC)"
-msgstr "Время (UTC)"
+msgstr "Dấu thời gian (UTC)"
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:44
 msgid "Size"
-msgstr "Размер"
+msgstr "Kích thước"
 
 #: nodepkg/company-logo.ts:31
 msgid "Get your own Web GIS at nextgis.com"
-msgstr "Создайте свою Веб ГИС на nextgis.com"
+msgstr "Tạo Web GIS của riêng bạn tại nextgis.com"
 
 #: nodepkg/cors-settings/CORSSettings.tsx:23
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
 msgstr ""
-"Введите перечень допустимых источников для кросс-доменных запросов для "
-"использования HTTP API этой Веб ГИС на других веб-сайтах. По одному источнику"
-" в строке."
+"Nhập các nguồn được phép cho yêu cầu liên miền để sử dụng HTTP API của Web GIS này trên các trang web khác. Mỗi dòng một nguồn."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:24
 msgid ""
@@ -196,303 +190,293 @@ msgid ""
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
-"Имейте в виду, что разные протоколы (HTTP и HTTPS) и субдомены (example.com и"
-" www.example.com) считаются разными источниками. Символ подстановки (*) "
-"допустим для доменов третьего уровня и выше."
+"Lưu ý rằng các giao thức khác nhau (HTTP và HTTPS) và các tên miền phụ (example.com và www.example.com) được coi là các nguồn khác nhau. Có thể dùng ký tự đại diện cho tên miền cấp ba trở lên."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:57
 msgid "CORS settings updated"
-msgstr "Настройки CORS обновлены"
+msgstr "Đã cập nhật cài đặt CORS"
 
 #: nodepkg/cors-settings/CORSSettings.tsx:62
 msgid "Fix the form errors first"
-msgstr "Вначале исправьте ошибку в форме"
+msgstr "Vui lòng sửa lỗi trong biểu mẫu trước"
 
 #: nodepkg/cors-settings/CORSSettings.tsx:78
 msgid "The value entered is not valid"
-msgstr "Введенное значение некорректно"
+msgstr "Giá trị nhập vào không hợp lệ"
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:40
 msgid "Custom styles saved. Reload the page to get them applied."
-msgstr "Изменения в стилях сохранены. Обновите страницу, чтобы увидеть изменения."
+msgstr "Đã lưu kiểu tùy chỉnh. Tải lại trang để áp dụng thay đổi."
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:62
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
 msgstr ""
-"Здесь можно задать стили CSS. Они будут использованы для оформления всех "
-"страниц вашей Веб ГИС."
+"Nhập quy tắc CSS tùy chỉnh tại đây. Chúng sẽ được sử dụng để thay đổi giao diện cho tất cả các trang của Web GIS."
 
 #: nodepkg/fonts/FontsPanel.tsx:28
 msgid ""
 "During operation, the Web GIS will restart. All existing requests will be "
 "aborted. Proceed?"
 msgstr ""
-"Во время выполнения Веб ГИС будет перезапущена. Все текущие запросы будут "
-"прерваны. Продолжить?"
+"Trong quá trình thực hiện, Web GIS sẽ khởi động lại. Tất cả các yêu cầu hiện tại sẽ bị hủy. Tiếp tục?"
 
 #: nodepkg/fonts/FontsPanel.tsx:29
 msgid "Web GIS is restarting, please wait..."
-msgstr "Веб ГИС перезапускается, подождите..."
+msgstr "Web GIS đang khởi động lại, vui lòng chờ..."
 
 #: nodepkg/fonts/FontsPanel.tsx:30
 msgid "Custom"
-msgstr "Пользовательский"
+msgstr "Tùy chỉnh"
 
 #: nodepkg/fonts/FontsPanel.tsx:30
 msgid "System"
-msgstr "Системный"
+msgstr "Hệ thống"
 
 #: nodepkg/fonts/FontsPanel.tsx:104
 msgid "Font"
-msgstr "Шрифт"
+msgstr "Phông chữ"
 
 #: nodepkg/fonts/FontsPanel.tsx:109
 msgid "Format"
-msgstr "Формат"
+msgstr "Định dạng"
 
 #: nodepkg/fonts/FontsPanel.tsx:114
 msgid "Type"
-msgstr "Тип"
+msgstr "Loại"
 
 #: nodepkg/fonts/FontsPanel.tsx:174
 msgid "Delete"
-msgstr "Удалить"
+msgstr "Xóa"
 
 #: nodepkg/fonts/FontsPanel.tsx:181
 msgid "Show system fonts"
-msgstr "Показать системные шрифты"
+msgstr "Hiển thị phông chữ hệ thống"
 
 #: nodepkg/home-path/HomePath.tsx:4
 msgid "The home path setting is saved."
-msgstr "Настройка стартовой страницы сохранена."
+msgstr "Đã lưu cài đặt trang chủ."
 
 #: nodepkg/i18n/testentry.ts:9 nodepkg/i18n/testentry.ts:13 test/test_i18n.py:15
 msgctxt "test"
 msgid "unit"
 msgid_plural "units"
-msgstr[0] "штука"
-msgstr[1] "штуки"
-msgstr[2] "штук"
+msgstr[0] "đơn vị"
+msgstr[1] "đơn vị"
+msgstr[2] "đơn vị"
 
 #: nodepkg/layout/Avatar.tsx:12
 msgid "Sign in"
-msgstr "Войти"
+msgstr "Đăng nhập"
 
 #: nodepkg/layout/Avatar.tsx:20
 msgid "Invitation session"
-msgstr "Сессия по приглашению"
+msgstr "Phiên mời"
 
 #: nodepkg/layout/Avatar.tsx:23
 msgid "User settings"
-msgstr "Настройки пользователя"
+msgstr "Cài đặt người dùng"
 
 #: nodepkg/layout/Avatar.tsx:25
 msgid "Sign out"
-msgstr "Выйти"
+msgstr "Đăng xuất"
 
 #: nodepkg/layout/store.ts:51
 msgid "Resources"
-msgstr "Ресурсы"
+msgstr "Tài nguyên"
 
 #: nodepkg/layout/store.ts:57 view.py:178
 msgid "Control panel"
-msgstr "Панель управления"
+msgstr "Bảng điều khiển"
 
 #: nodepkg/layout/store.ts:64
 msgid "Help"
-msgstr "Справка"
+msgstr "Trợ giúp"
 
 #: nodepkg/logo-form/LogoForm.tsx:5
 msgid "We recommend height of 45 px and width of up to 200 px."
-msgstr "Рекомендуемая высота 45 px и ширина до 200 px."
+msgstr "Khuyến nghị chiều cao 45 px và chiều rộng tối đa 200 px."
 
 #: nodepkg/logo-form/LogoForm.tsx:6
 msgid "Only PNG and SVG images are supported."
-msgstr "Поддерживаются только изображения PNG и SVG."
+msgstr "Chỉ hỗ trợ hình ảnh PNG và SVG."
 
 #: nodepkg/metrics/GoogleAnalyticsTab.tsx:28
 msgid "Measurement ID"
-msgstr "Идентификатор потока данных"
+msgstr "ID đo lường"
 
 #: nodepkg/metrics/MetricSettings.tsx:21
 msgid "Add"
-msgstr "Добавить"
+msgstr "Thêm"
 
 #: nodepkg/metrics/MetricSettings.tsx:22
 msgid "The setting is saved."
-msgstr "Настройка сохранена."
+msgstr "Đã lưu cài đặt."
 
 #: nodepkg/metrics/MetricSettings.tsx:23
 msgid "Reload the page to get them applied."
-msgstr "Обновите страницу, чтобы настройки вступили в силу."
+msgstr "Tải lại trang để áp dụng thay đổi."
 
 #: nodepkg/metrics/MetricSettings.tsx:27
 msgid "Add one or more counters to your Web GIS."
-msgstr "Добавьте один или несколько счетчиков в вашу Веб ГИС."
+msgstr "Thêm một hoặc nhiều bộ đếm vào Web GIS của bạn."
 
 #: nodepkg/metrics/MetricSettings.tsx:28
 msgid ""
 "HTML code of these counters will be embeded into each page and will allow you"
 " to track user activity."
 msgstr ""
-"HTML-код этих счетчиков будет встроен в каждую страницу и позволит "
-"отслеживать активность пользователей."
+"Mã HTML của các bộ đếm này sẽ được nhúng vào mỗi trang và cho phép bạn theo dõi hoạt động của người dùng."
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:29
 msgid "Tag number"
-msgstr "Номер счетчика"
+msgstr "Số thẻ"
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:48
 msgid "Webvisor"
-msgstr "Вебвизор"
+msgstr "Webvisor"
 
 #: nodepkg/metrics/tab.ts:32
 msgid "Google Analytics"
-msgstr "Google Аналитика"
+msgstr "Google Analytics"
 
 #: nodepkg/metrics/tab.ts:38
 msgid "Yandex.Metrica"
-msgstr "Яндекс.Метрика"
+msgstr "Yandex.Metrica"
 
 #: nodepkg/storage-summary/StorageSummary.tsx:23
 msgid "Some changes may be reflected only after full estimation."
-msgstr ""
-"Некоторые изменения могут быть отражены только после полной оценки "
-"использования хранилища."
+msgstr "Một số thay đổi chỉ có thể hiển thị sau khi đánh giá đầy đủ."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:24
 msgid "Storage usage was fully estimated at {f}."
-msgstr "Использование хранилища было полностью оценено в {f}."
+msgstr "Việc sử dụng lưu trữ đã được đánh giá đầy đủ vào {f}."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:25
 msgid "Storage usage was fully estimated at {f} and updated at {u}."
-msgstr "Использование хранилища было полностью оценено в {f} и обновлено в {u}."
+msgstr "Việc sử dụng lưu trữ đã được đánh giá đầy đủ vào {f} và cập nhật vào {u}."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:26
 msgid "Storage usage hasn't been estimated yet but was updated at {u}."
-msgstr ""
-"Использование хранилища еще не было полностью оценено, но было обновлено в "
-"{u}."
+msgstr "Việc sử dụng lưu trữ chưa được đánh giá đầy đủ nhưng đã được cập nhật vào {u}."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:27
 msgid "Storage usage hasn't been estimated yet."
-msgstr "Использование хранилища еще не было полностью оценено."
+msgstr "Việc sử dụng lưu trữ chưa được đánh giá đầy đủ."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:115
 msgid "Kind of data"
-msgstr "Вид данных"
+msgstr "Loại dữ liệu"
 
 #: nodepkg/storage-summary/StorageSummary.tsx:121
 msgid "Volume"
-msgstr "Размер"
+msgstr "Dung lượng"
 
 #: nodepkg/storage-summary/StorageSummary.tsx:141
 msgid "Total"
-msgstr "Итого"
+msgstr "Tổng cộng"
 
 #: nodepkg/storage-summary/StorageSummary.tsx:146
 msgid "of"
-msgstr "из"
+msgstr "trên"
 
 #: nodepkg/storage-summary/StorageSummary.tsx:211
 msgid "Estimate storage"
-msgstr "Оценка хранилища"
+msgstr "Ước tính lưu trữ"
 
 #: nodepkg/system-info/SystemInfo.tsx:59
 msgid "Package"
-msgstr "Пакет"
+msgstr "Gói"
 
 #: nodepkg/system-info/SystemInfo.tsx:60
 msgid "Version"
-msgstr "Версия"
+msgstr "Phiên bản"
 
 #: nodepkg/system-info/SystemInfo.tsx:77
 msgid "Platform"
-msgstr "Платформа"
+msgstr "Nền tảng"
 
 #: nodepkg/system-info/SystemInfo.tsx:89
 msgid "Browser support"
-msgstr "Поддержка браузеров"
+msgstr "Hỗ trợ trình duyệt"
 
 #: nodepkg/system-info/SystemInfo.tsx:97
 msgid "or higher"
-msgstr "или выше"
+msgstr "hoặc cao hơn"
 
 #: nodepkg/system-info/SystemInfo.tsx:98
 msgid "Not supported"
-msgstr "Не поддерживается"
+msgstr "Không được hỗ trợ"
 
 #: nodepkg/system-info/SystemInfo.tsx:104
 msgid "Your browser"
-msgstr "Ваш браузер"
+msgstr "Trình duyệt của bạn"
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:15
 msgid "Checking for updates..."
-msgstr "Проверяем наличие обновлений..."
+msgstr "Đang kiểm tra cập nhật..."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:16
 msgid "<a>Contact support</a> for update."
-msgstr "<a>Обратитесь в поддержку</a> для установки обновлений."
+msgstr "<a>Liên hệ hỗ trợ</a> để cập nhật."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:17
 msgid "Show details"
-msgstr "Подробнее"
+msgstr "Xem chi tiết"
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:21
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
-"Доступны критические обновления: {version}. Рекомендуем установить их как "
-"можно быстрее."
+"Có bản cập nhật quan trọng: {version}. Vui lòng cập nhật sớm nhất có thể."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:22
 msgid "New version of {distribution} is available: {version}."
-msgstr "Доступна новая версия {distribution}: {version}."
+msgstr "Đã có phiên bản mới của {distribution}: {version}."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:23
 msgid "Your {distribution} is up-to-date."
-msgstr "У вас последняя версия {distribution}."
+msgstr "{distribution} của bạn đã là phiên bản mới nhất."
 
 #: nodepkg/system-name-form/SystemNameForm.tsx:4
 msgid "The system name setting is saved."
-msgstr "Настройка названия Веб ГИС сохранена."
+msgstr "Đã lưu cài đặt tên hệ thống."
 
 #: nodepkg/update/index.tsx:24
 msgid "Critical updates are available"
-msgstr "Доступны критические обновления"
+msgstr "Có bản cập nhật quan trọng"
 
 #: nodepkg/update/index.tsx:25
 msgid "Updates are available"
-msgstr "Доступны обновления"
+msgstr "Có bản cập nhật mới"
 
 #: nodepkg/update/index.tsx:32
 msgid "Click to see what's new"
-msgstr "Нажмите и узнайте, что нового"
+msgstr "Nhấn để xem có gì mới"
 
 #: permission.py:5 view.py:283 view.py:634
 msgid "Cross-origin resource sharing (CORS)"
-msgstr "Cross-origin resource sharing (CORS)"
+msgstr "Chia sẻ tài nguyên giữa các nguồn (CORS)"
 
 #: template/uacompat.mako:3
 msgid "Browser compatibility test"
-msgstr "Проверка совместимости браузера"
+msgstr "Kiểm tra tương thích trình duyệt"
 
 #: template/uacompat.mako:22
 msgid "%(name)s %(current)s supported"
-msgstr "%(name)s %(current)s поддерживается"
+msgstr "%(name)s %(current)s được hỗ trợ"
 
 #: template/uacompat.mako:23
 msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
-msgstr "Проверка совместимости браузера пройдена! Веб ГИС должна работать корректно."
+msgstr "Đã vượt qua kiểm tra tương thích trình duyệt! Web GIS sẽ hoạt động bình thường."
 
 #: template/uacompat.mako:26
 msgid "%(name)s not supported"
-msgstr "%(name)s не поддерживается"
+msgstr "%(name)s không được hỗ trợ"
 
 #: template/uacompat.mako:27
 msgid ""
@@ -500,14 +484,11 @@ msgid ""
 "outdated browser lacking required features. Try a different browser or "
 "contact your system administrator if another browser isn't available."
 msgstr ""
-"Вы используете %(name)s, хотя он не поддерживается Веб ГИС. Это устаревший "
-"браузер не обладащий рядом необходимых функций. Попробуйте использовать "
-"другой браузер или свяжитесь с вашим системным администратором если другой "
-"браузер недоступен."
+"Bạn đang sử dụng %(name)s nhưng nó không được Web GIS hỗ trợ. Đây là trình duyệt cũ thiếu các tính năng cần thiết. Hãy thử trình duyệt khác hoặc liên hệ quản trị viên nếu không có trình duyệt khác."
 
 #: template/uacompat.mako:29
 msgid "%(name)s %(current)s not supported"
-msgstr "%(name)s %(current)s не поддерживается"
+msgstr "%(name)s %(current)s không được hỗ trợ"
 
 #: template/uacompat.mako:30
 msgid ""
@@ -516,10 +497,7 @@ msgid ""
 "administrator for upgrading to %(name)s %(required)s+ or try a different "
 "browser."
 msgstr ""
-"Вы используете %(name)s %(current)s, хотя он не поддерживается Веб ГИС. Это "
-"устаревшая версия браузера, не обладащая рядом необходимых функций. Свяжитесь"
-" с вашим системным администратором для обновления или попробуйте использовать"
-" другой браузер."
+"Bạn đang sử dụng %(name)s %(current)s nhưng nó không được Web GIS hỗ trợ. Đây là phiên bản trình duyệt cũ thiếu các tính năng cần thiết. Hãy liên hệ quản trị viên để nâng cấp lên %(name)s %(required)s+ hoặc thử trình duyệt khác."
 
 #: template/uacompat.mako:34
 msgid ""
@@ -527,92 +505,88 @@ msgid ""
 " to bypass the compatibility test. The Web GIS or some features may degrade "
 "or fail  in this case."
 msgstr ""
-"Если вы все же хотите продолжить использование Веб ГИС с текущий браузером, "
-"нажмите на ссылку ниже, чтобы пропустить проверку совместимости. Веб ГИС или "
-"часть ее функций могут работать некорректно в этом случае."
+"Nếu bạn vẫn muốn tiếp tục sử dụng trình duyệt hiện tại, hãy nhấn vào liên kết bên dưới để bỏ qua kiểm tra tương thích. Web GIS hoặc một số tính năng có thể hoạt động không đúng hoặc bị lỗi."
 
 #: template/uacompat.mako:35
 msgid "I understood but want to proceed at my own risk. Skip the test!"
-msgstr "Понятно, но я хочу продолжить на свой страх и риск. Пропустить тест!"
+msgstr "Tôi hiểu nhưng muốn tiếp tục. Bỏ qua kiểm tra!"
 
 #: template/uacompat.mako:37
 msgid "Unknown browser"
-msgstr "Неизвестный браузер"
+msgstr "Trình duyệt không xác định"
 
 #: template/uacompat.mako:38
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
-msgstr ""
-"Если вы используете актуальную версию браузера, Веб ГИС будет работать "
-"нормально."
+msgstr "Nếu bạn dùng trình duyệt mới nhất, Web GIS sẽ hoạt động bình thường."
 
 #: tomb/config.py:99
 msgid "Parameter required"
-msgstr "Требуется параметр"
+msgstr "Yêu cầu tham số"
 
 #: tomb/config.py:100
 msgid "The '{}' query parameter is required."
-msgstr "Необходимо указать значение параметра '{}'."
+msgstr "Tham số truy vấn '{}' là bắt buộc."
 
 #: tomb/config.py:102
 msgid "Invalid parameter"
-msgstr "Некорректный параметр"
+msgstr "Tham số không hợp lệ"
 
 #: tomb/config.py:103
 msgid "The '{}' query parameter has an invalid value."
-msgstr "Параметр запроса '{}' имеет недопустимое значение."
+msgstr "Tham số truy vấn '{}' có giá trị không hợp lệ."
 
 #: tomb/exception.py:7
 msgid "Malformed JSON body"
-msgstr ""
+msgstr "Nội dung JSON không hợp lệ"
 
 #: tomb/exception.py:8
 msgid "The JSON body of the request is malformed or invalid."
-msgstr ""
+msgstr "Nội dung JSON của yêu cầu bị lỗi hoặc không hợp lệ."
 
 #: view.py:167
 msgid "HTTP API documentation"
-msgstr "Документация HTTP API"
+msgstr "Tài liệu HTTP API"
 
 #: view.py:232 view.py:643
 msgid "System information"
-msgstr "Информация о системе"
+msgstr "Thông tin hệ thống"
 
 #: view.py:242 view.py:649
 msgid "Font management"
-msgstr "Управление шрифтами"
+msgstr "Quản lý phông chữ"
 
 #: view.py:251 view.py:686
 msgid "Storage"
-msgstr "Хранилище"
+msgstr "Lưu trữ"
 
 #: view.py:265 view.py:693
 msgid "Backups"
-msgstr "Резервные копии"
+msgstr "Sao lưu"
 
 #: view.py:293 view.py:661
 msgid "Custom CSS"
-msgstr "Пользовательские стили CSS"
+msgstr "CSS tùy chỉnh"
 
 #: view.py:302 view.py:667
 msgid "Custom logo"
-msgstr "Логотип"
+msgstr "Logo tùy chỉnh"
 
 #: view.py:311 view.py:655
 msgid "Web GIS name"
-msgstr "Название Веб ГИС"
+msgstr "Tên Web GIS"
 
 #: view.py:320 view.py:673
 msgid "Home path"
-msgstr "Стартовая страница"
+msgstr "Trang chủ"
 
 #: view.py:329 view.py:679
 msgid "Metrics and analytics"
-msgstr "Метрики и аналитика"
+msgstr "Chỉ số và phân tích"
 
 #: view.py:623
 msgid "Info"
-msgstr "Информация"
+msgstr "Thông tin"
 
 #: view.py:624
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Cài đặt"

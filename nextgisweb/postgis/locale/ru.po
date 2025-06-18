@@ -1,364 +1,366 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:84
 msgid "Table (%s) not found in schema (%s)."
-msgstr "Таблица (%s) не найдена в схеме (%s)."
+msgstr "Không tìm thấy bảng (%s) trong lược đồ (%s)."
 
 #: api.py:150
 msgid "PostGIS layer {} not found!"
-msgstr "Слой PostGIS {} не найден!"
+msgstr "Không tìm thấy lớp PostGIS {}!"
 
 #: api.py:174
 msgid "PostGIS connection {} not found!"
-msgstr "Соединение PostGIS {} не найдено!"
+msgstr "Không tìm thấy kết nối PostGIS {}!"
 
 #: diagnostics.py:99
 msgid "Got an unexpected error."
-msgstr "Возникла неожиданная ошибка."
+msgstr "Đã xảy ra lỗi không mong muốn."
 
 #: diagnostics.py:157
 msgid "PostgreSQL connection"
-msgstr "Подключение к PostgreSQL"
+msgstr "Kết nối PostgreSQL"
 
 #: diagnostics.py:163
 msgid "Host name resolution failed: {}."
-msgstr "Не удалось выполнить разрешение имени: {}."
+msgstr "Không thể phân giải tên máy chủ: {}."
 
 #: diagnostics.py:184
 msgid "Failed to connect to the database."
-msgstr "Не удалось подключиться к базе данных."
+msgstr "Kết nối đến cơ sở dữ liệu thất bại."
 
 #: diagnostics.py:189
 msgid "Connected to the database."
-msgstr "Подключение к базе данных выполнено."
+msgstr "Đã kết nối đến cơ sở dữ liệu."
 
 #: diagnostics.py:192
 msgid "Executed {} query."
-msgstr "Выполнен запрос {}."
+msgstr "Đã thực thi truy vấn {}."
 
 #: diagnostics.py:195
 msgid "PostgreSQL version {}."
-msgstr "Версия PostgreSQL {}."
+msgstr "Phiên bản PostgreSQL {}."
 
 #: diagnostics.py:200
 msgid "SSL is used."
-msgstr "SSL используется."
+msgstr "Đang sử dụng SSL."
 
 #: diagnostics.py:200
 msgid "SSL is not used."
-msgstr "SSL не используется."
+msgstr "Không sử dụng SSL."
 
 #: diagnostics.py:209
 msgid "PostGIS extension"
-msgstr "Расширение PostGIS"
+msgstr "Tiện ích mở rộng PostGIS"
 
 #: diagnostics.py:219
 msgid "PostGIS extension not found."
-msgstr "Расширение PostGIS не найдено."
+msgstr "Không tìm thấy tiện ích mở rộng PostGIS."
 
 #: diagnostics.py:221
 msgid "PostGIS extension version {}."
-msgstr "Версия расширения PostGIS {}."
+msgstr "Phiên bản tiện ích mở rộng PostGIS {}."
 
 #: diagnostics.py:224
 msgid "Number of geometry columns: {}."
-msgstr "Количество колонок геометрий: {}."
+msgstr "Số lượng cột hình học: {}."
 
 #: diagnostics.py:227
 msgid "Number of spatial reference systems: {}."
-msgstr "Количество систем координат: {}."
+msgstr "Số lượng hệ tọa độ: {}."
 
 #: diagnostics.py:267
 msgid "Layer table"
-msgstr "Таблица слоя"
+msgstr "Bảng lớp"
 
 #: diagnostics.py:273
 msgid "Table not found."
-msgstr "Таблица не найдена."
+msgstr "Không tìm thấy bảng."
 
 #: diagnostics.py:275
 msgid "Table found, table type is {}."
-msgstr "Таблица найдена, тип таблицы {}."
+msgstr "Đã tìm thấy bảng, loại bảng là {}."
 
 #: diagnostics.py:293
 msgid "{} privilege is present."
-msgstr "Привилегия {} присутствует."
+msgstr "Đặc quyền {} có sẵn."
 
 #: diagnostics.py:295 diagnostics.py:297
 msgid "{} privilege is absent."
-msgstr "Привилегия {} отсутствует."
+msgstr "Đặc quyền {} không có."
 
 #: diagnostics.py:300
 msgid "Number of records: {}."
-msgstr "Количество записей: {}."
+msgstr "Số lượng bản ghi: {}."
 
 #: diagnostics.py:303
 msgid "ID or geometry column isn't set."
-msgstr "Не установлена колонка ID или геометрии."
+msgstr "Chưa thiết lập cột ID hoặc hình học."
 
 #: diagnostics.py:310 nodepkg/layer-widget/LayerWidget.tsx:23
 msgid "ID column"
-msgstr "Поле ID"
+msgstr "Cột ID"
 
 #: diagnostics.py:315 diagnostics.py:388
 msgid "Column not found."
-msgstr "Колонка не найдена."
+msgstr "Không tìm thấy cột."
 
 #: diagnostics.py:320
 msgid "Column found, but has non-integer type - {}."
-msgstr "Колонка найдена, но имеет не целочисленный тип - {}."
+msgstr "Đã tìm thấy cột, nhưng không phải kiểu số nguyên - {}."
 
 #: diagnostics.py:322 diagnostics.py:400
 msgid "Column found, type is {}."
-msgstr "Колонка найдена, тип {}."
+msgstr "Đã tìm thấy cột, kiểu là {}."
 
 #: diagnostics.py:327
 msgid "Column is the primary key."
-msgstr "Колонка является первичным ключем."
+msgstr "Cột là khóa chính."
 
 #: diagnostics.py:330
 msgid "Column is not the primary key."
-msgstr "Колонка не является первичным ключем."
+msgstr "Cột không phải là khóa chính."
 
 #: diagnostics.py:339
 msgid "Column can be NULL."
-msgstr "Колонка может быть NULL."
+msgstr "Cột có thể là NULL."
 
 #: diagnostics.py:344
 msgid "NULL values in the column."
-msgstr "В колонке найдены значения NULL."
+msgstr "Có giá trị NULL trong cột."
 
 #: diagnostics.py:346
 msgid "No NULL values in the column."
-msgstr "Значений NULL в колонке не найдено."
+msgstr "Không có giá trị NULL trong cột."
 
 #: diagnostics.py:348
 msgid "Column cannot be NULL."
-msgstr "Колонка не может быть NULL."
+msgstr "Cột không thể là NULL."
 
 #: diagnostics.py:352
 msgid "Unique index not found."
-msgstr "Уникальный индекс не найден."
+msgstr "Không tìm thấy chỉ mục duy nhất."
 
 #: diagnostics.py:354
 msgid "Unique index found."
-msgstr "Уникальный индекс найден."
+msgstr "Đã tìm thấy chỉ mục duy nhất."
 
 #: diagnostics.py:370
 msgid "Non-unique values in the column."
-msgstr "В колонке есть не уникальные значения."
+msgstr "Có giá trị không duy nhất trong cột."
 
 #: diagnostics.py:372
 msgid "All values are unique."
-msgstr "Все значения уникальны."
+msgstr "Tất cả giá trị đều duy nhất."
 
 #: diagnostics.py:377
 msgid "Column is auto-incrementable."
-msgstr "Колонка авто-инкрементируемая."
+msgstr "Cột có thể tự động tăng."
 
 #: diagnostics.py:379
 msgid "Column isn't auto-incrementable."
-msgstr "Колонка не авто-инкрементируемая."
+msgstr "Cột không thể tự động tăng."
 
 #: diagnostics.py:383 nodepkg/layer-widget/LayerWidget.tsx:24
 msgid "Geometry column"
-msgstr "Поле геометрии"
+msgstr "Cột hình học"
 
 #: diagnostics.py:398
 msgid "Column found, but has an incompatible type - {}."
-msgstr "Колонка найдена, но имеет несовместимый тип - {}."
+msgstr "Đã tìm thấy cột, nhưng kiểu không tương thích - {}."
 
 #: diagnostics.py:403
 msgid "Geometry SRID mismatch."
-msgstr "SRID геометрий не соответствуют."
+msgstr "SRID hình học không khớp."
 
 #: diagnostics.py:418
 msgid "Failed to reproject extent to SRID {}."
-msgstr "Не удалось перепроецировать охват в SRID {}."
+msgstr "Không thể chuyển đổi phạm vi sang SRID {}."
 
 #: diagnostics.py:422
 msgid "Extent (SRID {}): {}."
-msgstr "Охват (SRID {}): {}."
+msgstr "Phạm vi (SRID {}): {}."
 
 #: diagnostics.py:426
 msgid "Field columns"
-msgstr "Колонки полей"
+msgstr "Các cột trường"
 
 #: diagnostics.py:432
 msgid "Column of field '{}' not found."
-msgstr "Колонка поля '{}' не найдена."
+msgstr "Không tìm thấy cột của trường '{}'."
 
 #: diagnostics.py:441
 msgid "Column of field '{}' found, but has an incompatible type - {}."
-msgstr "Колонка поля '{}' найдена, но имеет несовместимый тип - {}."
+msgstr "Đã tìm thấy cột của trường '{}', nhưng kiểu không tương thích - {}."
 
 #: diagnostics.py:447
 msgid "Column of field '{}' found, type is {}."
-msgstr "Колонка поля '{}' найдена, тип {}."
+msgstr "Đã tìm thấy cột của trường '{}', kiểu là {}."
 
 #: exception.py:9
 msgid "External database error"
-msgstr "Ошибка внешней базы данных"
+msgstr "Lỗi cơ sở dữ liệu bên ngoài"
 
 #: model.py:78 nodepkg/layer-widget/LayerWidget.tsx:70
 msgid "Point"
-msgstr "Точка"
+msgstr "Điểm"
 
 #: model.py:79 nodepkg/layer-widget/LayerWidget.tsx:71
 msgid "Line"
-msgstr "Линия"
+msgstr "Đường"
 
 #: model.py:80 nodepkg/layer-widget/LayerWidget.tsx:72
 msgid "Polygon"
-msgstr "Полигон"
+msgstr "Đa giác"
 
 #: model.py:81 nodepkg/layer-widget/LayerWidget.tsx:73
 msgid "Multipoint"
-msgstr "Мультиточка"
+msgstr "Đa điểm"
 
 #: model.py:82 nodepkg/layer-widget/LayerWidget.tsx:74
 msgid "Multiline"
-msgstr "Мультилиния"
+msgstr "Đa đường"
 
 #: model.py:83 nodepkg/layer-widget/LayerWidget.tsx:75
 msgid "Multipolygon"
-msgstr "Мультиполигон"
+msgstr "Đa đa giác"
 
 #: model.py:84 nodepkg/layer-widget/LayerWidget.tsx:76
 msgid "Point Z"
-msgstr "Точка Z"
+msgstr "Điểm Z"
 
 #: model.py:85 nodepkg/layer-widget/LayerWidget.tsx:77
 msgid "Line Z"
-msgstr "Линия Z"
+msgstr "Đường Z"
 
 #: model.py:86 nodepkg/layer-widget/LayerWidget.tsx:78
 msgid "Polygon Z"
-msgstr "Полигон Z"
+msgstr "Đa giác Z"
 
 #: model.py:87 nodepkg/layer-widget/LayerWidget.tsx:79
 msgid "Multipoint Z"
-msgstr "Мультиточка Z"
+msgstr "Đa điểm Z"
 
 #: model.py:88 nodepkg/layer-widget/LayerWidget.tsx:80
 msgid "Multiline Z"
-msgstr "Мультилиния Z"
+msgstr "Đa đường Z"
 
 #: model.py:89 nodepkg/layer-widget/LayerWidget.tsx:81
 msgid "Multipolygon Z"
-msgstr "Мультиполигон Z"
+msgstr "Đa đa giác Z"
 
 #: model.py:135 nodepkg/connection-widget/ConnectionWidget.tsx:99
 msgid "PostGIS connection"
-msgstr "Соединение PostGIS"
+msgstr "Kết nối PostGIS"
 
 #: model.py:227
 msgid "Cannot connect to the database!"
-msgstr "Невозможно подключиться к базе данных!"
+msgstr "Không thể kết nối đến cơ sở dữ liệu!"
 
 #: model.py:263 nodepkg/layer-widget/LayerWidget.tsx:228
 msgid "PostGIS layer"
-msgstr "Слой PostGIS"
+msgstr "Lớp PostGIS"
 
 #: model.py:317
 msgid "Table '%(table)s' not found!"
-msgstr "Таблица '%(table)s' не найдена!"
+msgstr "Không tìm thấy bảng '%(table)s'!"
 
 #: model.py:335
 msgid "SRID missing in geometry_columns table! You should specify it manually."
-msgstr "SRID отсутствует в таблице geometry_columns! Необходимо указать SRID вручную."
+msgstr "Thiếu SRID trong bảng geometry_columns! Bạn cần chỉ định thủ công."
 
 #: model.py:341
 msgid "0 is an invalid SRID."
-msgstr "SRID не может быть равен 0."
+msgstr "SRID bằng 0 là không hợp lệ."
 
 #: model.py:349
 msgid "SRID in geometry_columns table does not match specified!"
-msgstr "SRID в таблице geometry_columns не соответствует указанному!"
+msgstr "SRID trong bảng geometry_columns không khớp với giá trị đã chỉ định!"
 
 #: model.py:359
 msgid ""
 "Geometry type missing in geometry_columns table! You should specify it "
 "manually."
 msgstr ""
-"Тип геометрии отсутствует в таблице geometry_columns! Необходимо указать тип "
-"геометрии вручную."
+"Thiếu loại hình học trong bảng geometry_columns! Bạn cần chỉ định thủ công."
 
 #: model.py:373
 msgid "Geometry type in geometry_columns table does not match specified!"
-msgstr "Тип геометрии в таблице geometry_columns не соответствует указанному!"
+msgstr "Loại hình học trong bảng geometry_columns không khớp với giá trị đã chỉ định!"
 
 #: model.py:388
 msgid "To use column as ID it should have integer type!"
-msgstr ""
-"Для использования поля в качестве идентификатора оно должно иметь "
-"целочисленный тип!"
+msgstr "Để sử dụng cột làm ID, nó phải có kiểu số nguyên!"
 
 #: model.py:431 model.py:436
 msgid "Column '%(column)s' not found!"
-msgstr "Поле '%(column)s' не найдено!"
+msgstr "Không tìm thấy cột '%(column)s'!"
 
 #: model.py:442 nodepkg/layer-widget/LayerWidget.tsx:26
 msgid "Geometry type"
-msgstr "Тип геометрии"
+msgstr "Loại hình học"
 
 #: nodepkg/connection-widget/ConnectionWidget.tsx:46
 msgid "Host"
-msgstr "Сервер"
+msgstr "Máy chủ"
 
 #: nodepkg/connection-widget/ConnectionWidget.tsx:51
 msgid "Port"
-msgstr "Порт"
+msgstr "Cổng"
 
 #: nodepkg/connection-widget/ConnectionWidget.tsx:62
 msgid "SSL mode"
-msgstr "Режим SSL"
+msgstr "Chế độ SSL"
 
 #: nodepkg/connection-widget/ConnectionWidget.tsx:74
 msgid "User"
-msgstr "Пользователь"
+msgstr "Người dùng"
 
 #: nodepkg/connection-widget/ConnectionWidget.tsx:80
 msgid "Password"
-msgstr "Пароль"
+msgstr "Mật khẩu"
 
 #: nodepkg/connection-widget/ConnectionWidget.tsx:90
 msgid "Database"
-msgstr "База данных"
+msgstr "Cơ sở dữ liệu"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:12
 msgid "Unknown"
-msgstr "Неизвестно"
+msgstr "Không xác định"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:13
 msgid "Success"
-msgstr "Успех"
+msgstr "Thành công"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:14
 msgid "Warning"
-msgstr "Предупреждение"
+msgstr "Cảnh báo"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:15
 msgid "Error"
-msgstr "Ошибка"
+msgstr "Lỗi"
 
 #: nodepkg/layer-widget/LayerStore.ts:14
 msgid "Fields need to be updated due to autodetection"
-msgstr "Поля необходимо обновить из-за автоопределения"
+msgstr "Các trường cần được cập nhật do tự động phát hiện"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "Connection"
-msgstr "Соединение"
+msgstr "Kết nối"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "Schema"
-msgstr "Схема"
+msgstr "Lược đồ"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:22
 msgid "Table"
-msgstr "Таблица"
+msgstr "Bảng"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:25
 msgid "Autodetect"
-msgstr "Автоматически"
+msgstr "Tự động phát hiện"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:27
 msgid "SRID"
@@ -366,20 +368,20 @@ msgstr "SRID"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:28
 msgid "Fields"
-msgstr "Поля"
+msgstr "Trường"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:85
 msgid "Keep existing definitions untouched"
-msgstr "Оставить существующие определения без изменений"
+msgstr "Giữ nguyên các định nghĩa hiện có"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:86
 msgid "Update definitions from the database"
-msgstr "Обновить определения из базы данных"
+msgstr "Cập nhật định nghĩa từ cơ sở dữ liệu"
 
 #: view.py:39
 msgid "Diagnostics"
-msgstr "Диагностика"
+msgstr "Chẩn đoán"
 
 #: view.py:59
 msgid "PostGIS diagnostics"
-msgstr "Диагностика PostGIS"
+msgstr "Chẩn đoán PostGIS"

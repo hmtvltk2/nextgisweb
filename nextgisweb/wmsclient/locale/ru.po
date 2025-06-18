@@ -1,34 +1,39 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:51
 msgid "WMS connection"
-msgstr "Соединение WMS"
+msgstr "Kết nối WMS"
 
 #: model.py:145
 msgid "WMS capabilities"
-msgstr "Возможности WMS"
+msgstr "Khả năng WMS"
 
 #: model.py:146 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:96
 msgid "Image format"
-msgstr "Формат изображения"
+msgstr "Định dạng hình ảnh"
 
 #: model.py:225
 msgid "WMS layer"
-msgstr "Слой WMS"
+msgstr "Lớp WMS"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:12
 msgid "Query"
-msgstr "Запросить"
+msgstr "Truy vấn"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:13
 msgid "Clear"
-msgstr "Очистить"
+msgstr "Xóa"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:14
 msgid "Do not query"
-msgstr "Не запрашивать"
+msgstr "Không truy vấn"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:22
 msgid "WMS Connection URL"
-msgstr "Ссылка WMS-соеденения"
+msgstr "URL kết nối WMS"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:30
 msgid "URL"
@@ -36,46 +41,46 @@ msgstr "URL"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:38
 msgid "Username"
-msgstr "Имя пользователя"
+msgstr "Tên người dùng"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:45
 msgid "Password"
-msgstr "Пароль"
+msgstr "Mật khẩu"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:52
 msgid "Version"
-msgstr "Версия"
+msgstr "Phiên bản"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:63
 msgid "Capabilities"
-msgstr "Возможности"
+msgstr "Khả năng"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:75
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:83
 msgid "WMS Connection"
-msgstr "WMS Соединение"
+msgstr "Kết nối WMS"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:107
 msgid "WMS layers"
-msgstr "Слои WMS"
+msgstr "Các lớp WMS"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:116
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:65
 msgid "Vendor parameters"
-msgstr "Вендор параметры"
+msgstr "Tham số nhà cung cấp"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:129
 msgid "Edit vendor parameters"
-msgstr "Изменить вендор параметры"
+msgstr "Chỉnh sửa tham số nhà cung cấp"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
 msgid "WMS Layer"
-msgstr "Слой WMS"
+msgstr "Lớp WMS"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:21
 msgid "Key"
-msgstr "Ключ"
+msgstr "Khóa"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:27
 msgid "Value"
-msgstr "Значение"
+msgstr "Giá trị"

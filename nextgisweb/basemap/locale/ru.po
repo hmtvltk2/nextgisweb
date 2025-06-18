@@ -1,22 +1,27 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:25
 msgid "Basemap"
-msgstr "Подложка веб-карты"
+msgstr "Bản đồ nền"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "Pick from QMS"
-msgstr "Выбрать из QMS"
+msgstr "Chọn từ QMS"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:22
 msgid "Search for geoservices provided by "
-msgstr "Искать геосервисы, предоставленные "
+msgstr "Tìm kiếm dịch vụ địa lý do "
 
 #: nodepkg/layer-widget/LayerWidget.tsx:23
 msgid "You can search by name or ID"
-msgstr "Можно искать по имени или по ID"
+msgstr "Bạn có thể tìm kiếm theo tên hoặc ID"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:26
 msgid "If a service from QMS is selected, this field cannot be edited."
-msgstr "Пока выбран сервис из QMS, редактирование этих полей отключено."
+msgstr "Nếu đã chọn dịch vụ từ QMS, trường này không thể chỉnh sửa."
 
 #: nodepkg/layer-widget/LayerWidget.tsx:95
 msgid "URL"
@@ -24,33 +29,33 @@ msgstr "URL"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:103
 msgid "Copyright text"
-msgstr "Текст для копирайта"
+msgstr "Văn bản bản quyền"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:112
 msgid "Copyright URL"
-msgstr "Ссылка на копирайт"
+msgstr "Liên kết bản quyền"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:168
 #: nodepkg/webmap-widget/WebMapWidget.tsx:108
 msgid "Basemaps"
-msgstr "Подложки"
+msgstr "Các bản đồ nền"
 
 #: nodepkg/plugin/base-map/BaseMap.ts:56
 msgid "No basemap"
-msgstr "Без подложки"
+msgstr "Không có bản đồ nền"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:27
 msgid "Display name"
-msgstr "Наименование"
+msgstr "Tên hiển thị"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:34
 msgid "Default basemap"
-msgstr "Подложка по умолчанию"
+msgstr "Bản đồ nền mặc định"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:37
 msgid "Opacity"
-msgstr "Непрозрачность"
+msgstr "Độ mờ"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:42
 msgid "Resource"
-msgstr "Ресурс"
+msgstr "Tài nguyên"

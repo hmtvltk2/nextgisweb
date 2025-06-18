@@ -1,561 +1,565 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: adapter.py:26
 msgid "Tiles"
-msgstr "Тайлы"
+msgstr "Tile"
 
 #: adapter.py:35
 msgid "Image"
-msgstr "Изображение"
+msgstr "Hình ảnh"
 
 #: component.py:26
 msgid "Main web map"
-msgstr "Основная веб-карта"
+msgstr "Bản đồ web chính"
 
 #: favorite.py:6 view.py:194
 msgid "Display"
-msgstr "Открыть"
+msgstr "Hiển thị"
 
 #: favorite.py:11
 msgid "Fragment"
-msgstr "Фрагмент"
+msgstr "Phân đoạn"
 
 #: model.py:47 model.py:65 view.py:189 view.py:216
 msgid "Web map"
-msgstr "Веб-карта"
+msgstr "Bản đồ web"
 
 #: model.py:49
 msgctxt "permission"
 msgid "View annotations"
-msgstr "Просмотр аннотаций"
+msgstr "Xem chú thích"
 
 #: model.py:50
 msgctxt "permission"
 msgid "Draw annotations"
-msgstr "Рисование аннотаций"
+msgstr "Vẽ chú thích"
 
 #: model.py:51
 msgctxt "permission"
 msgid "Manage annotations"
-msgstr "Управление аннотациями"
+msgstr "Quản lý chú thích"
 
 #: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:204
 msgid "Clone"
-msgstr "Клонировать"
+msgstr "Nhân bản"
 
 #: nodepkg/clone-webmap/CloneWebmap.tsx:67
 msgid "Resource group"
-msgstr "Группа ресурсов"
+msgstr "Nhóm tài nguyên"
 
 #: nodepkg/clone-webmap/CloneWebmap.tsx:82 nodepkg/items-widget/ItemsWidget.tsx:30
 msgid "Display name"
-msgstr "Наименование"
+msgstr "Tên hiển thị"
 
 #: nodepkg/component/SelectLegendSymbols.tsx:5
 #: nodepkg/settings-widget/SettingsWidget.tsx:36
 #: nodepkg/settings/select-options.ts:94
 msgid "Default"
-msgstr "По умолчанию"
+msgstr "Mặc định"
 
 #: nodepkg/component/SelectLegendSymbols.tsx:8
 #: nodepkg/settings/select-options.ts:95
 msgid "Expand"
-msgstr "Развернуть"
+msgstr "Mở rộng"
 
 #: nodepkg/component/SelectLegendSymbols.tsx:9
 #: nodepkg/settings/select-options.ts:96
 msgid "Collapse"
-msgstr "Свернуть"
+msgstr "Thu gọn"
 
 #: nodepkg/component/SelectLegendSymbols.tsx:10
 #: nodepkg/settings-widget/SettingsWidget.tsx:50
 #: nodepkg/settings/select-options.ts:97
 msgid "Disable"
-msgstr "Отключить"
+msgstr "Tắt"
 
 #: nodepkg/display-tiny/DisplayTinyComponent.tsx:45
 msgid "Open full map"
-msgstr "Открыть карту целиком"
+msgstr "Mở bản đồ đầy đủ"
 
 #: nodepkg/display/Display.ts:693
 msgid "Object not found"
-msgstr "Объект не найден"
+msgstr "Không tìm thấy đối tượng"
 
 #: nodepkg/display/Display.ts:694
 msgid "Object from URL parameters not found"
-msgstr "Объект из параметров строки запроса не найден"
+msgstr "Không tìm thấy đối tượng từ tham số URL"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
 msgid "Radius:"
-msgstr "Радиус"
+msgstr "Bán kính:"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:62
 #: nodepkg/utils/format-units.tsx:13
 msgid "m"
-msgstr "м"
+msgstr "m"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:82
 msgid "Circle"
-msgstr "Окружность"
+msgstr "Hình tròn"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:89
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:162
 msgid "Line"
-msgstr "Линия"
+msgstr "Đường"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:95
 msgid "Rectangle"
-msgstr "Прямоугольник"
+msgstr "Hình chữ nhật"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:102
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:166
 #: nodepkg/utils/geometry-types.ts:15
 msgid "Polygon"
-msgstr "Полигон"
+msgstr "Đa giác"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
 msgid "Hide"
-msgstr "Скрыть"
+msgstr "Ẩn"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
 msgid "Show"
-msgstr "Показать"
+msgstr "Hiện"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:125
 msgid "Zoom to filtering geometry"
-msgstr "Увеличить"
+msgstr "Phóng tới hình học lọc"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:130
 msgid "Clear filtering geometry"
-msgstr "Очистить"
+msgstr "Xóa hình học lọc"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:136
 msgid "Draw filtering geometry"
-msgstr "Нарисовать геометрию для фильтра"
+msgstr "Vẽ hình học lọc"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:137
 msgid "Change filtering geometry"
-msgstr "Изменить геометрию для фильтра"
+msgstr "Thay đổi hình học lọc"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:138
 msgid "Stop drawing..."
-msgstr "Остановить рисование"
+msgstr "Dừng vẽ..."
 
 #: nodepkg/items-widget/DrawOrder.tsx:25
 msgid "Back to layers and groups"
-msgstr "Назад к слоям и группам"
+msgstr "Quay lại lớp và nhóm"
 
 #: nodepkg/items-widget/DrawOrder.tsx:26
 msgid "Use default draw order"
-msgstr "Порядок рисования по умолчанию"
+msgstr "Sử dụng thứ tự vẽ mặc định"
 
 #: nodepkg/items-widget/Item.ts:107
 msgid "Group members have errors"
-msgstr "Ошибка в участниках группы"
+msgstr "Thành viên nhóm có lỗi"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:31
 msgid "Expanded"
-msgstr "Развернута"
+msgstr "Đã mở rộng"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:32
 msgid "Exclusive"
-msgstr "Взаимоисключающая"
+msgstr "Độc quyền"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:33
 msgid "Enabled"
-msgstr "Включен"
+msgstr "Đã bật"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:34
 msgid "Identifiable"
-msgstr "Идентифицируемый"
+msgstr "Có thể nhận diện"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:35
 msgid "Resource"
-msgstr "Ресурс"
+msgstr "Tài nguyên"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:36
 msgid "Transparency"
-msgstr "Прозрачность"
+msgstr "Độ trong suốt"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:37
 msgid "Min scale"
-msgstr "Мин. масштаб"
+msgstr "Tỷ lệ nhỏ nhất"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:38
 msgid "Max scale"
-msgstr "Макс. масштаб"
+msgstr "Tỷ lệ lớn nhất"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:39
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:28
 #: nodepkg/settings-widget/SettingsWidget.tsx:26
 #: nodepkg/settings/SettingsForm.tsx:261
 msgid "Legend"
-msgstr "Легенда"
+msgstr "Chú giải"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:40
 msgid "Adapter"
-msgstr "Адаптер"
+msgstr "Bộ chuyển đổi"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:41
 msgid "Layer"
-msgstr "Слой"
+msgstr "Lớp"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:42
 msgid "Group"
-msgstr "Группа"
+msgstr "Nhóm"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:43
 msgid "Edit draw order"
-msgstr "Изменить порядок рисования"
+msgstr "Chỉnh sửa thứ tự vẽ"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:44
 msgid "Customize draw order"
-msgstr "Настроить порядок рисования"
+msgstr "Tùy chỉnh thứ tự vẽ"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:240 nodepkg/panel/layers/plugin.tsx:10
 msgid "Layers"
-msgstr "Слои"
+msgstr "Các lớp"
 
 #: nodepkg/layer-opacity-slider/LayerOpacitySlider.tsx:8
 msgid "Opacity"
-msgstr "Непрозрачность"
+msgstr "Độ mờ"
 
 #: nodepkg/layer/annotations/AnnotationFeature.ts:54
 msgid "Your annotation text"
-msgstr "Ваш текст аннотации"
+msgstr "Nội dung chú thích của bạn"
 
 #: nodepkg/layer/annotations/AnnotationFeature.ts:192
 msgid "Public annotation"
-msgstr "Публичная аннотация"
+msgstr "Chú thích công khai"
 
 #: nodepkg/layer/annotations/AnnotationFeature.ts:194
 msgid "My private annotation"
-msgstr "Моя приватная аннотация"
+msgstr "Chú thích riêng của tôi"
 
 #: nodepkg/layers-tree/LegendAction.tsx:10
 msgid "Show legend"
-msgstr "Показывать легенду"
+msgstr "Hiện chú giải"
 
 #: nodepkg/layers-tree/LegendAction.tsx:11
 msgid "Hide legend"
-msgstr "Скрывать легенду"
+msgstr "Ẩn chú giải"
 
 #: nodepkg/map-component/UrlLayer.tsx:11
 msgid "Unable to load tile"
-msgstr "Ошибка загрузки тайла"
+msgstr "Không thể tải tile"
 
 #: nodepkg/map-controls/control/MyLocation.ts:169
 msgid "Your location could not be determined"
-msgstr "Определить местоположение не удалось"
+msgstr "Không thể xác định vị trí của bạn"
 
 #: nodepkg/map-controls/control/SwipeControl.ts:40
 msgid "Rotate swipe"
-msgstr "Повернуть шторку"
+msgstr "Xoay thanh trượt"
 
 #: nodepkg/map-controls/map-controls.ts:40 nodepkg/map-controls/map-tools.ts:15
 #: nodepkg/map-controls/tool/Zoom.ts:29
 msgid "Zoom in"
-msgstr "Приблизить"
+msgstr "Phóng to"
 
 #: nodepkg/map-controls/map-controls.ts:41 nodepkg/map-controls/map-tools.ts:24
 #: nodepkg/map-controls/tool/Zoom.ts:29
 msgid "Zoom out"
-msgstr "Отодвинуть"
+msgstr "Thu nhỏ"
 
 #: nodepkg/map-controls/map-controls.ts:52
 msgid "Attributions"
-msgstr "Информация о правообладателях"
+msgstr "Thông tin bản quyền"
 
 #: nodepkg/map-controls/map-controls.ts:64 nodepkg/print-map/utils.ts:54
 msgid "Reset rotation"
-msgstr "Отменить поворот"
+msgstr "Đặt lại xoay"
 
 #: nodepkg/map-controls/map-controls.ts:79
 msgid "Scale line"
-msgstr "Линейка масштаба"
+msgstr "Thước tỷ lệ"
 
 #: nodepkg/map-controls/map-controls.ts:91
 msgid "Info scale"
-msgstr "Числовой масштаб"
+msgstr "Tỷ lệ thông tin"
 
 #: nodepkg/map-controls/map-controls.ts:101
 #: nodepkg/map-controls/map-controls.ts:104
 #: nodepkg/settings-widget/SettingsWidget.tsx:23
 msgid "Initial extent"
-msgstr "Начальный охват"
+msgstr "Phạm vi ban đầu"
 
 #: nodepkg/map-controls/map-controls.ts:114
 #: nodepkg/map-controls/map-controls.ts:117
 msgid "Locate me"
-msgstr "Определить мое местоположение"
+msgstr "Định vị tôi"
 
 #: nodepkg/map-controls/map-controls.ts:122 nodepkg/settings/SettingsForm.tsx:84
 #: option/base.py:41
 msgid "Identification"
-msgstr "Идентификация"
+msgstr "Nhận diện"
 
 #: nodepkg/map-controls/map-tools.ts:33 nodepkg/map-controls/tool/Measure.ts:52
 msgid "Measure distance"
-msgstr "Измерение расстояния"
+msgstr "Đo khoảng cách"
 
 #: nodepkg/map-controls/map-tools.ts:42 nodepkg/map-controls/tool/Measure.ts:53
 msgid "Measure area"
-msgstr "Измерение площади"
+msgstr "Đo diện tích"
 
 #: nodepkg/map-controls/map-tools.ts:51 nodepkg/map-controls/tool/Swipe.ts:30
 msgid "Vertical swipe"
-msgstr "Вертикальная шторка"
+msgstr "Thanh trượt dọc"
 
 #: nodepkg/map-controls/map-tools.ts:59
 msgid "Cursor coordinates / extent"
-msgstr "Координаты курсора / охвата"
+msgstr "Tọa độ con trỏ / phạm vi"
 
 #: nodepkg/map-controls/tool/Identify.ts:65 nodepkg/panel/identify/plugin.tsx:12
 msgid "Identify"
-msgstr "Идентификация"
+msgstr "Nhận diện"
 
 #: nodepkg/map-controls/tool/Swipe.ts:34
 msgid "Horizontal swipe"
-msgstr "Горизонтальная шторка"
+msgstr "Thanh trượt ngang"
 
 #: nodepkg/map-controls/tool/ViewerInfo.ts:28
 msgid "Show cursor coordinates / extent"
-msgstr "Показать координаты курсора / охват"
+msgstr "Hiện tọa độ con trỏ / phạm vi"
 
 #: nodepkg/map-controls/tool/editing/CreateFeature.ts:15
 msgid "Create features"
-msgstr "Создать объекты"
+msgstr "Tạo đối tượng"
 
 #: nodepkg/map-controls/tool/editing/DeleteFeature.ts:14
 msgid "Delete features"
-msgstr "Удалить объекты"
+msgstr "Xóa đối tượng"
 
 #: nodepkg/map-controls/tool/editing/ModifyFeature.ts:14
 msgid "Modify features"
-msgstr "Изменить объекты"
+msgstr "Chỉnh sửa đối tượng"
 
 #: nodepkg/map-viewer-info/MapViewerInfo.tsx:86
 msgid "Show extent"
-msgstr "Показывать охват"
+msgstr "Hiện phạm vi"
 
 #: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
 msgid "Show cursor coordinates"
-msgstr "Показывать координаты курсора"
+msgstr "Hiện tọa độ con trỏ"
 
 #: nodepkg/ol/control/ZoomControl.ts:40
 msgid "Back to the initial extent"
-msgstr "Вернуться к начальному охвату"
+msgstr "Quay lại phạm vi ban đầu"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:121
 msgid "Show annotations"
-msgstr "Показывать аннотации"
+msgstr "Hiện chú thích"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:127
 #: nodepkg/settings-widget/OptionsWidget.tsx:37
 msgid "No"
-msgstr "Нет"
+msgstr "Không"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:128
 #: nodepkg/settings-widget/OptionsWidget.tsx:36
 msgid "Yes"
-msgstr "Да"
+msgstr "Có"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:131
 msgid "With messages"
-msgstr "С сообщениями"
+msgstr "Kèm tin nhắn"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:139
 #: nodepkg/plugin/layer-editor/LayerEditor.tsx:133
 msgid "Edit"
-msgstr "Редактировать"
+msgstr "Chỉnh sửa"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:147
 msgid "Edit annotations"
-msgstr "Редактировать аннотации"
+msgstr "Chỉnh sửa chú thích"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:152
 msgid "Geometry type"
-msgstr "Тип геометрии"
+msgstr "Loại hình học"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:159
 #: nodepkg/utils/geometry-types.ts:6
 msgid "Point"
-msgstr "Точка"
+msgstr "Điểm"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:174
 msgid "Private annotations"
-msgstr "Приватные аннотации"
+msgstr "Chú thích riêng tư"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:184
 msgid "Public annotations"
-msgstr "Публичные аннотации"
+msgstr "Chú thích công khai"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:197
 msgid "My private annotations"
-msgstr "Мои приватные аннотации"
+msgstr "Chú thích riêng của tôi"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:211
 msgid "Other private annotations"
-msgstr "Другие приватные аннотации"
+msgstr "Chú thích riêng khác"
 
 #: nodepkg/panel/annotations/plugin.tsx:13
 #: nodepkg/settings-widget/SettingsWidget.tsx:27
 msgid "Annotations"
-msgstr "Аннотации"
+msgstr "Chú thích"
 
 #: nodepkg/panel/bookmarks/plugin.tsx:11
 #: nodepkg/settings-widget/SettingsWidget.tsx:29
 msgid "Bookmarks"
-msgstr "Закладки"
+msgstr "Dấu trang"
 
 #: nodepkg/panel/description/plugin.tsx:10
 #: nodepkg/plugin/layer-info/LayerInfoPlugin.tsx:32
 msgid "Description"
-msgstr "Описание"
+msgstr "Mô tả"
 
 #: nodepkg/panel/identify/CoordinatesSwitcher.tsx:179
 msgid "Zoom to identification point"
-msgstr "Увеличить до точки идентификации"
+msgstr "Phóng tới điểm nhận diện"
 
 #: nodepkg/panel/identify/CoordinatesSwitcher.tsx:195
 msgid "Copy identification point coordinates"
-msgstr "Скопировать координаты точки идентификации"
+msgstr "Sao chép tọa độ điểm nhận diện"
 
 #: nodepkg/panel/identify/FeatureEditButton.tsx:76
 msgid "Edit feature"
-msgstr "Редактировать объект"
+msgstr "Chỉnh sửa đối tượng"
 
 #: nodepkg/panel/identify/IdentifyPanel.tsx:35
 msgid ""
 "To get feature information, click on the map with the left mouse button. Make"
 " sure that other tools are turned off."
 msgstr ""
-"Чтобы получить информацию об объекте, щелкните на карте левой кнопкой мыши. "
-"Убедитесь, что другие инструменты отключены."
+"Để lấy thông tin đối tượng, hãy nhấp chuột trái vào bản đồ. Đảm bảo các công cụ khác đã tắt."
 
 #: nodepkg/panel/identify/IdentifyPanel.tsx:36
 msgid "Retrieving object information..."
-msgstr "Получение информации об объекте..."
+msgstr "Đang lấy thông tin đối tượng..."
 
 #: nodepkg/panel/identify/IdentifyPanel.tsx:37
 msgid "No objects were found at the click location."
-msgstr "Объекты в месте клика не найдены."
+msgstr "Không tìm thấy đối tượng tại vị trí đã nhấp."
 
 #: nodepkg/panel/identify/KeyValueTable.tsx:13
 msgid "Attribute"
-msgstr "Атрибут"
+msgstr "Thuộc tính"
 
 #: nodepkg/panel/identify/KeyValueTable.tsx:18
 msgid "Value"
-msgstr "Значение"
+msgstr "Giá trị"
 
 #: nodepkg/panel/identify/component/FeatureInfoSection.tsx:16
 msgid "Loading..."
-msgstr "Загрузка..."
+msgstr "Đang tải..."
 
 #: nodepkg/panel/identify/component/FeatureInfoSection.tsx:75
 msgid "Attributes"
-msgstr "Атрибуты"
+msgstr "Thuộc tính"
 
 #: nodepkg/panel/identify/component/FeatureInfoSection.tsx:92
 msgid "Geometry"
-msgstr "Геометрия"
+msgstr "Hình học"
 
 #: nodepkg/panel/identify/component/FeatureSelector.tsx:54
 msgid "Zoom to feature"
-msgstr "Приблизить к объекту"
+msgstr "Phóng tới đối tượng"
 
 #: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
 msgid "Band {}"
-msgstr "Канал {}"
+msgstr "Kênh {}"
 
 #: nodepkg/panel/identify/component/RasterInfoSection.tsx:27
 msgid "Raster"
-msgstr "Растр"
+msgstr "Raster"
 
 #: nodepkg/panel/identify/fields.tsx:115
 msgid "N/A"
-msgstr "Н/Д"
+msgstr "Không có"
 
 #: nodepkg/panel/layers/LayersDropdown.tsx:19
 msgid "Zoom to all layers"
-msgstr "Увеличить до всех слоев"
+msgstr "Phóng tới tất cả các lớp"
 
 #: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:147
 msgid "Print"
-msgstr "Печать"
+msgstr "In"
 
 #: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:152
 msgid "Save as"
-msgstr "Сохранить как"
+msgstr "Lưu thành"
 
 #: nodepkg/panel/print/PrintPanel.tsx:129
 msgid "Elements"
-msgstr "Элементы"
+msgstr "Thành phần"
 
 #: nodepkg/panel/print/PrintPanel.tsx:136
 #: nodepkg/panel/print/component/PrintScaleSettings.tsx:75
 msgid "Scale"
-msgstr "Масштаб"
+msgstr "Tỷ lệ"
 
 #: nodepkg/panel/print/PrintPanel.tsx:152
 msgid "Copy link to the print map"
-msgstr "Скопировать ссылку на карту для печати"
+msgstr "Sao chép liên kết bản đồ in"
 
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:39
 msgid "Number of legend columns"
-msgstr "Количество столбцов легенды"
+msgstr "Số cột chú giải"
 
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:49
 #: nodepkg/settings-widget/SettingsWidget.tsx:25
 msgid "Title"
-msgstr "Заголовок"
+msgstr "Tiêu đề"
 
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:52
 msgid "Map title text"
-msgstr "Текст заголовка карты"
+msgstr "Văn bản tiêu đề bản đồ"
 
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:71
 msgid "North Arrow"
-msgstr "Указатель севера"
+msgstr "Mũi tên Bắc"
 
 #: nodepkg/panel/print/component/PrintPaperSettings.tsx:83
 msgid "Paper format"
-msgstr "Формат бумаги"
+msgstr "Định dạng giấy"
 
 #: nodepkg/panel/print/component/PrintPaperSettings.tsx:93
 msgid "Height, mm"
-msgstr "Высота, мм"
+msgstr "Chiều cao, mm"
 
 #: nodepkg/panel/print/component/PrintPaperSettings.tsx:109
 msgid "Width, mm"
-msgstr "Ширина, мм"
+msgstr "Chiều rộng, mm"
 
 #: nodepkg/panel/print/component/PrintPaperSettings.tsx:125
 msgid "Margin, mm"
-msgstr "Отступ, мм"
+msgstr "Lề, mm"
 
 #: nodepkg/panel/print/component/PrintScaleSettings.tsx:62
 msgid "Scale value"
-msgstr "Значение масштаба"
+msgstr "Giá trị tỷ lệ"
 
 #: nodepkg/panel/print/component/PrintScaleSettings.tsx:71
 msgid "Scale bar"
-msgstr "Масштабная линейка"
+msgstr "Thước tỷ lệ"
 
 #: nodepkg/panel/print/component/ScalesSelect.tsx:73
 msgid "Custom scale"
-msgstr "Произвольный масштаб"
+msgstr "Tỷ lệ tùy chỉnh"
 
 #: nodepkg/panel/print/options.tsx:11
 msgid "Portrait"
-msgstr "Портретный"
+msgstr "Dọc"
 
 #: nodepkg/panel/print/options.tsx:12
 msgid "Landscape"
-msgstr "Ландшафтный"
+msgstr "Ngang"
 
 #: nodepkg/panel/print/options.tsx:48
 msgid "Custom size"
-msgstr "Настраиваемый"
+msgstr "Kích thước tùy chỉnh"
 
 #: nodepkg/panel/print/options.tsx:71
 msgid "JPEG"
@@ -575,77 +579,78 @@ msgstr "PDF"
 
 #: nodepkg/panel/print/plugin.tsx:10
 msgid "Print map"
-msgstr "Распечатать карту"
+msgstr "In bản đồ"
 
 #: nodepkg/panel/search/SearchPanel.tsx:361
 msgid "Enter at least 2 characters"
-msgstr "Введите минимум 2 символа"
+msgstr "Nhập ít nhất 2 ký tự"
 
 #: nodepkg/panel/search/SearchPanel.tsx:450
 msgid "Not found"
-msgstr "Не найдено"
+msgstr "Không tìm thấy"
 
 #: nodepkg/panel/search/SearchPanel.tsx:455
 msgid "Refine search criterion. Displayed first 100 search results."
-msgstr "Уточните критерий поиска. Отображены первые 100 результатов поиска."
+msgstr "Làm rõ tiêu chí tìm kiếm. Hiển thị 100 kết quả đầu tiên."
 
 #: nodepkg/panel/search/plugin.tsx:11
 msgid "Search"
-msgstr "Поиск"
+msgstr "Tìm kiếm"
 
 #: nodepkg/panel/share/SharePanel.tsx:44
 msgid ""
 "<a>CORS</a> must be enabled for the target origin when embedding a web map on"
 " a different domain."
-msgstr "<a>CORS</a> должен быть включен при встраивании веб-карты на домене."
+msgstr ""
+"Cần bật <a>CORS</a> cho nguồn đích khi nhúng bản đồ web trên tên miền khác."
 
 #: nodepkg/panel/share/SharePanel.tsx:45
 msgid "Add web map fragment to favorites"
-msgstr "Добавить фрагмент веб-карты в избранное"
+msgstr "Thêm phân đoạn bản đồ web vào yêu thích"
 
 #: nodepkg/panel/share/SharePanel.tsx:98
 msgid "Select tools"
-msgstr "Выберите инструменты"
+msgstr "Chọn công cụ"
 
 #: nodepkg/panel/share/SharePanel.tsx:114
 msgid "Select panels"
-msgstr "Выберите панели"
+msgstr "Chọn bảng"
 
 #: nodepkg/panel/share/SharePanel.tsx:130
 msgid "None"
-msgstr "Нет"
+msgstr "Không"
 
 #: nodepkg/panel/share/SharePanel.tsx:305
 msgid "Active panel"
-msgstr "Активная панель"
+msgstr "Bảng đang hoạt động"
 
 #: nodepkg/panel/share/SharePanel.tsx:337
 msgid "The map link copied to clipboard."
-msgstr "Ссылка на карту скопирована в буфер обмена."
+msgstr "Đã sao chép liên kết bản đồ vào bộ nhớ tạm."
 
 #: nodepkg/panel/share/SharePanel.tsx:340
 msgid "Copy link"
-msgstr "Копировать ссылку"
+msgstr "Sao chép liên kết"
 
 #: nodepkg/panel/share/SharePanel.tsx:374
 msgid "Optional fragment label"
-msgstr "Необязательное название фрагмента"
+msgstr "Nhãn phân đoạn tùy chọn"
 
 #: nodepkg/panel/share/SharePanel.tsx:382
 msgid "Embed code for your site"
-msgstr "Вставить карту на сайт"
+msgstr "Mã nhúng cho trang web của bạn"
 
 #: nodepkg/panel/share/SharePanel.tsx:384
 msgid "Map size:"
-msgstr "Размер карты:"
+msgstr "Kích thước bản đồ:"
 
 #: nodepkg/panel/share/SharePanel.tsx:386
 msgid "Width, px"
-msgstr "Ширина, пикс."
+msgstr "Chiều rộng, px"
 
 #: nodepkg/panel/share/SharePanel.tsx:394
 msgid "Height, px"
-msgstr "Высота, пикс."
+msgstr "Chiều cao, px"
 
 #: nodepkg/panel/share/SharePanel.tsx:400
 msgid "px"
@@ -653,255 +658,255 @@ msgstr "px"
 
 #: nodepkg/panel/share/SharePanel.tsx:403
 msgid "Map tools"
-msgstr "Инструменты карты"
+msgstr "Công cụ bản đồ"
 
 #: nodepkg/panel/share/SharePanel.tsx:407 option/base.py:31
 msgid "Panels"
-msgstr "Панели"
+msgstr "Bảng"
 
 #: nodepkg/panel/share/SharePanel.tsx:423
 msgid "Link to main map"
-msgstr "Ссылка на основную карту"
+msgstr "Liên kết tới bản đồ chính"
 
 #: nodepkg/panel/share/SharePanel.tsx:433
 msgid "Generate events"
-msgstr "Генерация событий"
+msgstr "Tạo sự kiện"
 
 #: nodepkg/panel/share/SharePanel.tsx:437
 msgid "Embed code"
-msgstr "Код для встраивания"
+msgstr "Mã nhúng"
 
 #: nodepkg/panel/share/SharePanel.tsx:449
 msgid "The embed code copied to clipboard."
-msgstr "Код для встраивания скопирован в буфер обмена."
+msgstr "Đã sao chép mã nhúng vào bộ nhớ tạm."
 
 #: nodepkg/panel/share/SharePanel.tsx:453
 msgid "Copy code"
-msgstr "Копировать код"
+msgstr "Sao chép mã"
 
 #: nodepkg/panel/share/SharePanel.tsx:456
 msgid "Preview"
-msgstr "Предпросмотр"
+msgstr "Xem trước"
 
 #: nodepkg/panel/share/plugin.tsx:11
 msgid "Share"
-msgstr "Поделиться"
+msgstr "Chia sẻ"
 
 #: nodepkg/plugin/feature-layer/FeatureLayerPlugin.tsx:12
 msgid "Feature table"
-msgstr "Таблица объектов"
+msgstr "Bảng đối tượng"
 
 #: nodepkg/plugin/layer-editor/LayerEditor.tsx:133
 msgid "Stop editing"
-msgstr "Завершить редактирование"
+msgstr "Dừng chỉnh sửa"
 
 #: nodepkg/plugin/zoom-to-layer/ZoomToLayerPlugin.tsx:18
 msgid "Zoom to layer"
-msgstr "Увеличить до слоя"
+msgstr "Phóng tới lớp"
 
 #: nodepkg/settings-widget/OptionsWidget.tsx:13
 msgid "Auto"
-msgstr "Авто"
+msgstr "Tự động"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
 msgid "Constraining extent"
-msgstr "Ограничивающий охват"
+msgstr "Giới hạn phạm vi"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:28
 msgid "Select mode"
-msgstr "Выберите режим"
+msgstr "Chọn chế độ"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:30
 msgid "Select resource"
-msgstr "Выберите ресурс"
+msgstr "Chọn tài nguyên"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:31
 #: nodepkg/settings/SettingsForm.tsx:172
 msgid "Measurement SRS"
-msgstr "СК для измерений"
+msgstr "Hệ tọa độ đo đạc"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:32
 msgid "Layers editing"
-msgstr "Редактирование слоев"
+msgstr "Chỉnh sửa lớp"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:33
 msgid "Additional options"
-msgstr "Дополнительные опции"
+msgstr "Tùy chọn bổ sung"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
 msgid "Configure"
-msgstr "Настроить"
+msgstr "Cấu hình"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:39
 msgid "Web map will start at this extent"
-msgstr "Веб-карта будет показана с этим охватом"
+msgstr "Bản đồ web sẽ bắt đầu ở phạm vi này"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:40
 msgid "Web map will not allow to move outside of this extent"
-msgstr "Веб-карта не позволит выйти за пределы этого охвата"
+msgstr "Bản đồ web sẽ không cho phép di chuyển ra ngoài phạm vi này"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
 msgid "Hide by default"
-msgstr "Скрыть по умолчанию"
+msgstr "Ẩn theo mặc định"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:45
 msgid "Show without messages"
-msgstr "Показать без сообщений"
+msgstr "Hiện không có tin nhắn"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:46
 msgid "Show with messages"
-msgstr "Показать с сообщениями"
+msgstr "Hiện kèm tin nhắn"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:51
 #: nodepkg/settings/SettingsForm.tsx:195
 msgid "Enable"
-msgstr "Включить"
+msgstr "Bật"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:185
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Cài đặt"
 
 #: nodepkg/settings/Settings.tsx:62
 msgid "Settings saved"
-msgstr "Настройки сохранены"
+msgstr "Đã lưu cài đặt"
 
 #: nodepkg/settings/SettingsForm.tsx:65
 msgid "General"
-msgstr "Общие"
+msgstr "Chung"
 
 #: nodepkg/settings/SettingsForm.tsx:78
 msgid "Hide navigation menu for guest"
-msgstr "Скрывать меню навигации для гостя"
+msgstr "Ẩn menu điều hướng cho khách"
 
 #: nodepkg/settings/SettingsForm.tsx:97
 msgid "Show feature attributes"
-msgstr "Показывать атрибуты объектов"
+msgstr "Hiện thuộc tính đối tượng"
 
 #: nodepkg/settings/SettingsForm.tsx:111
 msgid "Show geometry info"
-msgstr "Показывать информацию о геометрии"
+msgstr "Hiện thông tin hình học"
 
 #: nodepkg/settings/SettingsForm.tsx:121
 msgid "Radius, px"
-msgstr "Радиус, пикс."
+msgstr "Bán kính, px"
 
 #: nodepkg/settings/SettingsForm.tsx:133
 msgid "Measurement"
-msgstr "Измерения"
+msgstr "Đo đạc"
 
 #: nodepkg/settings/SettingsForm.tsx:139
 msgid "Length units"
-msgstr "Единицы длины"
+msgstr "Đơn vị chiều dài"
 
 #: nodepkg/settings/SettingsForm.tsx:148
 msgid "Area units"
-msgstr "Единицы площади"
+msgstr "Đơn vị diện tích"
 
 #: nodepkg/settings/SettingsForm.tsx:158
 msgid "Degree format"
-msgstr "Формат градусов"
+msgstr "Định dạng độ"
 
 #: nodepkg/settings/SettingsForm.tsx:182
 msgid "Address search"
-msgstr "Адресный поиск"
+msgstr "Tìm kiếm địa chỉ"
 
 #: nodepkg/settings/SettingsForm.tsx:209
 msgid "Limit by web map initial extent"
-msgstr "Ограничить начальным охватом карты"
+msgstr "Giới hạn theo phạm vi ban đầu của bản đồ"
 
 #: nodepkg/settings/SettingsForm.tsx:219
 msgid "Provider"
-msgstr "Провайдер"
+msgstr "Nhà cung cấp"
 
 #: nodepkg/settings/SettingsForm.tsx:231
 msgid "Limit search results to countries"
-msgstr "Ограничить поиск странами"
+msgstr "Giới hạn kết quả tìm kiếm theo quốc gia"
 
 #: nodepkg/settings/SettingsForm.tsx:241
 msgid "Invalid countries. For example ru or gb,de"
-msgstr "Неверные значения. Например, ru или gb,de"
+msgstr "Quốc gia không hợp lệ. Ví dụ: vn hoặc us,fr"
 
 #: nodepkg/settings/SettingsForm.tsx:253
 msgid "Yandex.Maps API Geocoder Key"
-msgstr "Ключ геокодера API Яндекс.Карт"
+msgstr "Khóa Geocoder API Yandex.Maps"
 
 #: nodepkg/settings/SettingsForm.tsx:274
 msgid "Visibility"
-msgstr "Видимость"
+msgstr "Hiển thị"
 
 #: nodepkg/settings/SettingsForm.tsx:299
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:165
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:57
 msgid "Save"
-msgstr "Сохранить"
+msgstr "Lưu"
 
 #: nodepkg/settings/select-options.ts:7
 msgid "Meters"
-msgstr "Метры"
+msgstr "Mét"
 
 #: nodepkg/settings/select-options.ts:11
 msgid "Kilometers"
-msgstr "Километры"
+msgstr "Kilômét"
 
 #: nodepkg/settings/select-options.ts:15
 msgid "Meters/kilometers (auto)"
-msgstr "Метры/километры (авто)"
+msgstr "Mét/kilômét (tự động)"
 
 #: nodepkg/settings/select-options.ts:19
 msgid "Feet"
-msgstr "Футы"
+msgstr "Feet"
 
 #: nodepkg/settings/select-options.ts:23
 msgid "Miles"
-msgstr "Мили"
+msgstr "Dặm"
 
 #: nodepkg/settings/select-options.ts:27
 msgid "Feet/miles (auto)"
-msgstr "Футы/мили (авто)"
+msgstr "Feet/dặm (tự động)"
 
 #: nodepkg/settings/select-options.ts:34
 msgid "Sq. meters"
-msgstr "Кв. метры"
+msgstr "Mét vuông"
 
 #: nodepkg/settings/select-options.ts:38
 msgid "Sq. kilometers"
-msgstr "Кв. километры"
+msgstr "Kilômét vuông"
 
 #: nodepkg/settings/select-options.ts:42
 msgid "Sq. meters/kilometers (auto)"
-msgstr "Кв. метры/километры (авто)"
+msgstr "Mét vuông/kilômét vuông (tự động)"
 
 #: nodepkg/settings/select-options.ts:46
 msgid "Hectares"
-msgstr "Гектары"
+msgstr "Hecta"
 
 #: nodepkg/settings/select-options.ts:50
 msgid "Acres"
-msgstr "Акры"
+msgstr "Acre"
 
 #: nodepkg/settings/select-options.ts:54
 msgid "Sq. miles"
-msgstr "Кв. мили"
+msgstr "Dặm vuông"
 
 #: nodepkg/settings/select-options.ts:58
 msgid "Acres/sq. miles (auto)"
-msgstr "Акры/кв. мили (авто)"
+msgstr "Acre/dặm vuông (tự động)"
 
 #: nodepkg/settings/select-options.ts:62
 msgid "Sq. feet"
-msgstr "Кв. футы"
+msgstr "Feet vuông"
 
 #: nodepkg/settings/select-options.ts:69
 msgid "Decimal degrees"
-msgstr "Десятичные градусы"
+msgstr "Độ thập phân"
 
 #: nodepkg/settings/select-options.ts:73
 msgid "Degrees, decimal minutes"
-msgstr "Градусы и десятичные минуты"
+msgstr "Độ, phút thập phân"
 
 #: nodepkg/settings/select-options.ts:77
 msgid "Degrees, minutes, seconds"
-msgstr "Градусы, минуты, секунды"
+msgstr "Độ, phút, giây"
 
 #: nodepkg/settings/select-options.ts:84
 msgid "Nominatim (OSM)"
@@ -909,179 +914,174 @@ msgstr "Nominatim (OSM)"
 
 #: nodepkg/settings/select-options.ts:88
 msgid "Yandex.Maps API Geocoder"
-msgstr "Геокодер API Яндекс.Карт"
+msgstr "Geocoder API Yandex.Maps"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:121
 msgid "Create as public"
-msgstr "Создать как публичную"
+msgstr "Tạo công khai"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:128
 msgid "Create as private"
-msgstr "Создать как приватную"
+msgstr "Tạo riêng tư"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:136
 msgid "Edit annotation"
-msgstr "Редактировать аннотацию"
+msgstr "Chỉnh sửa chú thích"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:137
 msgid "Create annotation"
-msgstr "Создать аннотацию"
+msgstr "Tạo chú thích"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:159
 msgid "Delete"
-msgstr "Удалить"
+msgstr "Xóa"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:162
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:171
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:48
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "Hủy"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:175
 msgid "Create"
-msgstr "Создать"
+msgstr "Tạo mới"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:59
 msgid "Stroke: width / color"
-msgstr "Обводка: ширина / цвет"
+msgstr "Viền: độ rộng / màu"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:77
 #: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:102
 msgid "Colors"
-msgstr "Цвета"
+msgstr "Màu sắc"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:97
 msgid "Fill color"
-msgstr "Цвет заливки"
+msgstr "Màu nền"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:117
 msgid "Circle size, px"
-msgstr "Размер пунсона, пикс"
+msgstr "Kích thước hình tròn, px"
 
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:21
 msgid "Stopping editing"
-msgstr "Завершить редактирование?"
+msgstr "Dừng chỉnh sửa?"
 
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:30
 msgid "Do you want to save changes?"
-msgstr "Вы хотите сохранить изменения?"
+msgstr "Bạn có muốn lưu thay đổi không?"
 
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:40
 msgid "Don't save"
-msgstr "Не сохранять"
+msgstr "Không lưu"
 
 #: nodepkg/utils/format-units.tsx:14
 msgid "km"
-msgstr "км"
+msgstr "km"
 
 #: nodepkg/utils/format-units.tsx:15
 msgid "ft"
-msgstr "фут"
+msgstr "ft"
 
 #: nodepkg/utils/format-units.tsx:16
 msgid "mi"
-msgstr "миля"
+msgstr "dặm"
 
 #: nodepkg/utils/format-units.tsx:17
 msgid "ha"
-msgstr "га"
+msgstr "ha"
 
 #: nodepkg/utils/format-units.tsx:18
 msgid "ac"
-msgstr "акр"
+msgstr "ac"
 
 #: nodepkg/utils/geometry-types.ts:9
 msgid "LineString"
-msgstr "Линия"
+msgstr "Đường"
 
 #: nodepkg/utils/geometry-types.ts:12
 msgid "LinearRing"
-msgstr "Замкнутый контур"
+msgstr "Vòng khép kín"
 
 #: nodepkg/utils/geometry-types.ts:18
 msgid "MultiPoint"
-msgstr "Мультиточка"
+msgstr "Đa điểm"
 
 #: nodepkg/utils/geometry-types.ts:21
 msgid "MultiLineString"
-msgstr "Мультилиния"
+msgstr "Đa đường"
 
 #: nodepkg/utils/geometry-types.ts:24
 msgid "MultiPolygon"
-msgstr "Мультиполигон"
+msgstr "Đa đa giác"
 
 #: nodepkg/utils/geometry-types.ts:27
 msgid "GeometryCollection"
-msgstr "Коллекция геометрий"
+msgstr "Tập hợp hình học"
 
 #: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:25
 msgid "Go to"
-msgstr "Перейти"
+msgstr "Đi tới"
 
 #: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:149
 msgid "Selected feature has no geometry"
-msgstr "Выбранный объект не имеет геометрии"
+msgstr "Đối tượng đã chọn không có hình học"
 
 #: nodepkg/webmap-tabs/WebMapTabs.tsx:16
 msgid "Loading"
-msgstr "Загрузка"
+msgstr "Đang tải"
 
 #: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:17
 msgid "Zoom to filtered features"
-msgstr "Приблизить к найденным объектам"
+msgstr "Phóng tới đối tượng đã lọc"
 
 #: option/__init__.py:14
 msgid "Feature attributes"
-msgstr "Атрибуты объектов"
+msgstr "Thuộc tính đối tượng"
 
 #: option/__init__.py:24
 msgid "Geometry info"
-msgstr "Информация о геометрии"
+msgstr "Thông tin hình học"
 
 #: option/base.py:36
 msgid "Tools"
-msgstr "Инструменты"
+msgstr "Công cụ"
 
 #: option/base.py:46
 msgid "Miscellaneous"
-msgstr "Прочее"
+msgstr "Khác"
 
 #: template/invalid_origin.mako:3
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
-msgstr "Встраивание веб-карты не разрешено для %s в настройках Веб ГИС."
+msgstr "Không cho phép nhúng bản đồ web cho %s trong cài đặt Web GIS."
 
 #: template/invalid_origin.mako:5
 msgid "View the map on %s"
-msgstr "Посмотреть карту на %s"
+msgstr "Xem bản đồ trên %s"
 
 #: template/preview_embedded.mako:15
 msgid "This page is for a preview of the web map to be embedded on the site."
-msgstr ""
-"Эта страница предназначена для предпросмотра веб карты, которую необходимо "
-"встроить на сайт."
+msgstr "Trang này dùng để xem trước bản đồ web sẽ được nhúng vào trang web."
 
 #: template/preview_embedded.mako:16
 msgid ""
 "Most likely, you went from the \"Share\" section of the web map and refreshed"
 " the page."
 msgstr ""
-"Скорее всего, вы перешли из секции \"Поделиться\" веб карты и обновили "
-"страницу."
+"Có thể bạn đã chuyển từ mục \"Chia sẻ\" của bản đồ web và làm mới trang."
 
 #: template/preview_embedded.mako:17
 msgid "To generate a preview, go back to the web map page and click \"Preview\"."
-msgstr ""
-"Для генерации предпросмотра вернитесь на страницу веб карты и нажмите "
-"\"Предпросмотр\"."
+msgstr "Để tạo xem trước, hãy quay lại trang bản đồ web và nhấn \"Xem trước\"."
 
 #: view.py:107
 msgid "Clone web map"
-msgstr "Клонировать веб-карту"
+msgstr "Nhân bản bản đồ web"
 
 #: view.py:120
 msgid "Embedded webmap preview"
-msgstr "Просмотр встроенной веб-карты"
+msgstr "Xem trước bản đồ web nhúng"
 
 #: view.py:129
 msgid "Web map settings"
-msgstr "Настройки веб-карты"
+msgstr "Cài đặt bản đồ web"

@@ -1,55 +1,59 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:87
 msgid "Tilesets"
-msgstr "Наборы тайлов"
+msgstr "Bộ tile"
 
 #: model.py:91
 msgid "Tile {} unsupported."
-msgstr "Тайл {} не поддерживается."
+msgstr "Không hỗ trợ tile {}."
 
 #: model.py:126 nodepkg/resource-widget/Widget.tsx:34
 msgid "Tileset"
-msgstr "Набор тайлов"
+msgstr "Bộ tile"
 
 #: model.py:211
 msgid "Number of tiles"
-msgstr "Количество тайлов"
+msgstr "Số lượng tile"
 
 #: model.py:213
 msgid "Zoom levels"
-msgstr "Масштабные уровни"
+msgstr "Các mức thu phóng"
 
 #: model.py:214
 msgid "From {min} to {max}"
-msgstr "От {min} до {max}"
+msgstr "Từ {min} đến {max}"
 
 #: model.py:249
 msgid "Tiles '{}' and '{}' are located in different subdirectories."
-msgstr "Тайлы '{}' и '{}' расположены в разных поддиректориях."
+msgstr "Tile '{}' và '{}' nằm ở các thư mục con khác nhau."
 
 #: model.py:255
 msgid "Tiles '{}' and '{}' have different extensions."
-msgstr "У тайлов '{}' и '{}' разные расширения."
+msgstr "Tile '{}' và '{}' có phần mở rộng khác nhau."
 
 #: model.py:316 model.py:352
 msgid "Unsupported data format."
-msgstr "Неподдерживаемый формат данных."
+msgstr "Định dạng dữ liệu không được hỗ trợ."
 
 #: model.py:357
 msgid "Only 256x256 px tiles are supported."
-msgstr "Поддерживаются только тайлы размера 256x256 пикселей."
+msgstr "Chỉ hỗ trợ tile kích thước 256x256 pixel."
 
 #: model.py:378
 msgid "No tiles found in source."
-msgstr "В исходном файле нет тайлов."
+msgstr "Không tìm thấy tile trong nguồn."
 
 #: nodepkg/resource-widget/Widget.tsx:12
 msgid "Select a tileset"
-msgstr "Выберите набор тайлов"
+msgstr "Chọn bộ tile"
 
 #: nodepkg/resource-widget/Widget.tsx:13
 msgid ""
 "MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
 "JPEG format and have a size of 256x256 pixels."
 msgstr ""
-"Поддерживаются MBTiles и ZIP-архивы с тайлами. Тайлы должны быть в формате "
-"PNG или JPEG и иметь размер 256x256 пикселей."
+"Hỗ trợ MBTiles và tệp ZIP chứa tile. Tile phải ở định dạng PNG hoặc JPEG và có kích thước 256x256 pixel."

@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: amd/ngw-feature-attachment/DisplayWidget.js:9
 #: nodepkg/attachment-bundle/ol-control/control.ts:21
 #: nodepkg/attachment-bundle/ol-control/control.ts:37
@@ -5,62 +10,62 @@
 #: nodepkg/attachment-editor/plugin.ts:8
 #: nodepkg/attachment-table-view/AttachmentTableView.tsx:23
 msgid "Attachments"
-msgstr "Вложения"
+msgstr "Tệp đính kèm"
 
 #: component.py:13
 msgid "Feature attachments"
-msgstr "Прикрепленные к объектам файлы"
+msgstr "Tệp đính kèm đối tượng"
 
 #: exception.py:7
 msgid "Attachment not found"
-msgstr "Вложение не найдено"
+msgstr "Không tìm thấy tệp đính kèm"
 
 #: exception.py:8
 msgid "Attachment with id = %d was not found in feature with id = %d."
-msgstr "Вложение с id = %d не найдено в объекте с id = %d."
+msgstr "Không tìm thấy tệp đính kèm với id = %d trong đối tượng có id = %d."
 
 #: exception.py:9
 msgid "The attachment may have been deleted or an error in the address."
-msgstr "Вложение могло быть удалено, либо допущена ошибка в адресе."
+msgstr "Tệp đính kèm có thể đã bị xóa hoặc có lỗi trong địa chỉ."
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:34
 msgid "Draw the geometry on the map to visualize the attachments to the objects"
-msgstr "Нарисуйте геометрию на карте, чтобы отобразить вложения к объектам."
+msgstr "Vẽ hình học trên bản đồ để hiển thị tệp đính kèm cho các đối tượng"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:132
 msgid "Object: "
-msgstr "Объект: "
+msgstr "Đối tượng: "
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:141
 msgid "Identify object"
-msgstr "Идентифицировать объект"
+msgstr "Xác định đối tượng"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:162
 msgid "Attachments: "
-msgstr "Вложений: "
+msgstr "Tệp đính kèm: "
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:189
 msgid "No attachments"
-msgstr "Нет вложений"
+msgstr "Không có tệp đính kèm"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:255
 msgid "Download all attachments"
-msgstr "Скачать все вложения"
+msgstr "Tải xuống tất cả tệp đính kèm"
 
 #: nodepkg/attachment-editor/AttachmentEditor.tsx:160
 #: nodepkg/attachment-table/AttachmentTable.tsx:45
 msgid "File name"
-msgstr "Имя файла"
+msgstr "Tên tệp"
 
 #: nodepkg/attachment-editor/AttachmentEditor.tsx:166
 #: nodepkg/attachment-table/AttachmentTable.tsx:63
 msgid "Size"
-msgstr "Размер"
+msgstr "Kích thước"
 
 #: nodepkg/attachment-editor/AttachmentEditor.tsx:172
 #: nodepkg/attachment-table/AttachmentTable.tsx:78
 msgid "Description"
-msgstr "Описание"
+msgstr "Mô tả"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:56
 msgid ""
@@ -69,30 +74,27 @@ msgid ""
 "in directories named after feature IDs. Attachment metadata are put into a "
 "separate JSON file."
 msgstr ""
-"Используйте экспорт для копирования вложений между разными слоями или для "
-"создания резервной копии. Полученный ZIP-архив будет содержать все вложения в"
-" директориях с именами объектов. Метаданные вложений сохраняются в отдельном "
-"JSON-файле."
+"Sử dụng xuất để sao chép tệp đính kèm giữa các lớp khác nhau hoặc tạo bản sao lưu. Tệp ZIP kết quả sẽ chứa tất cả tệp đính kèm trong các thư mục được đặt tên theo ID đối tượng. Siêu dữ liệu tệp đính kèm sẽ được lưu trong một tệp JSON riêng biệt."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:66
 msgid "Export attachments to ZIP archive"
-msgstr "Экспортировать вложения в ZIP-архив"
+msgstr "Xuất tệp đính kèm ra tệp ZIP"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:84
 msgid "Back to resource"
-msgstr "Назад к ресурсу"
+msgstr "Quay lại tài nguyên"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:86
 msgid "Close"
-msgstr "Закрыть"
+msgstr "Đóng"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:89
 msgid "The archive has been successfully imported."
-msgstr "Импорт архива выполнен успешно."
+msgstr "Đã nhập tệp lưu trữ thành công."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:91
 msgid "Attachments imported - {i}, skipped - {s}."
-msgstr "Импортировано вложений - {i}, пропущено - {s}."
+msgstr "Tệp đính kèm đã nhập - {i}, đã bỏ qua - {s}."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:126
 msgid ""
@@ -100,79 +102,76 @@ msgid ""
 "archive must contain directories named after feature IDs. Each folder can "
 "contain one or many attachments. Duplicates will be ignored."
 msgstr ""
-"Загрузите ZIP-архив для пакетного добавления вложений к существующим "
-"объектам. Архив должен содержать директории названные по идентификаторам "
-"объектов. Каждая директория может содержать одно или несколько вложений. "
-"Дубликаты будут пропущены."
+"Tải lên tệp ZIP để thêm hàng loạt tệp đính kèm vào các đối tượng hiện có. Tệp lưu trữ phải chứa các thư mục được đặt tên theo ID đối tượng. Mỗi thư mục có thể chứa một hoặc nhiều tệp đính kèm. Các tệp trùng lặp sẽ bị bỏ qua."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:135
 msgid "Delete existing attachments"
-msgstr "Удалить существующие вложения"
+msgstr "Xóa tệp đính kèm hiện có"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:160
 msgid "Import attachments from ZIP archive"
-msgstr "Импортировать вложения из ZIP-архива."
+msgstr "Nhập tệp đính kèm từ tệp ZIP"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:172
 msgid "Export"
-msgstr "Экспорт"
+msgstr "Xuất"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:177
 msgid "Import"
-msgstr "Импорт"
+msgstr "Nhập"
 
 #: nodepkg/attachment-table/AttachmentTable.tsx:55
 msgid "Unnamed"
-msgstr "Безымянный"
+msgstr "Không tên"
 
 #: nodepkg/attachment-table/AttachmentTable.tsx:72
 msgid "MIME type"
-msgstr "Тип MIME"
+msgstr "Loại MIME"
 
 #: nodepkg/image-thumbnail/component/CarouselRender.tsx:32
 msgid "Toggle panorama viewer"
-msgstr "Переключить просмотр панорам"
+msgstr "Bật/tắt trình xem toàn cảnh"
 
 #: nodepkg/image-thumbnail/component/CarouselSlide.tsx:70
 msgid "Failed to upload image"
-msgstr "Не удалось загрузить изображение"
+msgstr "Tải ảnh lên thất bại"
 
 #: util.py:26
 msgid "Invalid ZIP archive."
-msgstr "Некорректный ZIP-архив."
+msgstr "Tệp ZIP không hợp lệ."
 
 #: util.py:55
 msgid "File '{}' isn't found in metadata."
-msgstr "Файл '{}' не найден в метаданных."
+msgstr "Không tìm thấy tệp '{}' trong siêu dữ liệu."
 
 #: util.py:61
 msgid "Invalid feature ID for file '{}'."
-msgstr "Некорректный идентификатор объекта для файла '{}'."
+msgstr "ID đối tượng không hợp lệ cho tệp '{}'."
 
 #: util.py:68
 msgid "Invalid keyname for file '{}'."
-msgstr "Некорректный ключ для файла '{}'."
+msgstr "Tên khóa không hợp lệ cho tệp '{}'."
 
 #: util.py:74
 msgid "Invalid name for file '{}'."
-msgstr "Некорректное имя для файла '{}'."
+msgstr "Tên không hợp lệ cho tệp '{}'."
 
 #: util.py:80
 msgid "Invalid MIME type for file '{}'."
-msgstr "Некорректный MIME-тип для файла '{}'."
+msgstr "Loại MIME không hợp lệ cho tệp '{}'."
 
 #: util.py:87
 msgid "Invalid description for file '{}'."
-msgstr "Некорректное описание для файла '{}'."
+msgstr "Mô tả không hợp lệ cho tệp '{}'."
 
 #: util.py:100
 msgid "Could not determine feature ID for file '{}'."
-msgstr "Не удалось определить идентификатор объекта для файла '{}'."
+msgstr "Không thể xác định ID đối tượng cho tệp '{}'."
 
 #: util.py:118
 msgid "File '{}' isn't found in the archive."
-msgstr "Файл '{}' не найден в архиве."
+msgstr "Không tìm thấy tệp '{}' trong lưu trữ."
 
 #: view.py:20 view.py:43
 msgid "Manage attachments"
-msgstr "Управление вложениями"
+msgstr "Quản lý tệp đính kèm"

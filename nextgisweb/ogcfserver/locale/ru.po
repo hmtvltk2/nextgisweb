@@ -1,26 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:16 nodepkg/service-widget/ServiceWidget.tsx:103
 msgid "OGC API Features service"
-msgstr "Сервис OGC API Features"
+msgstr "Dịch vụ OGC API Features"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:27
 msgid "Display name"
-msgstr "Наименование"
+msgstr "Tên hiển thị"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:32
 msgid "Keyname"
-msgstr "Ключ"
+msgstr "Tên khóa"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr "Объектов на запрос"
+msgstr "Đối tượng mỗi yêu cầu"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr "Не заполнено"
+msgstr "Chưa thiết lập"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"
-msgstr "Ресурс"
+msgstr "Tài nguyên"
 
 #: view.py:16
 msgid "OGC API Features"
@@ -31,5 +36,4 @@ msgid ""
 "OGC API Features provides API building blocks to create, modify and query "
 "features on the Web."
 msgstr ""
-"OGC API Features предоставляют базовые API для создания, изменения и выборки "
-"объектов."
+"OGC API Features cung cấp các khối API cơ bản để tạo, chỉnh sửa và truy vấn đối tượng trên Web."

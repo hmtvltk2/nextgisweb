@@ -1,69 +1,73 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:34 nodepkg/editor/EditorWidget.tsx:174
 msgid "Lookup table"
-msgstr "Справочник"
+msgstr "Bảng tra cứu"
 
 #: nodepkg/component/lookup-select/LookupSelect.tsx:48
 msgid "Loading..."
-msgstr "Загрузка..."
+msgstr "Đang tải..."
 
 #: nodepkg/editor/EditorWidget.tsx:34
 msgid "Export"
-msgstr "Экспорт"
+msgstr "Xuất"
 
 #: nodepkg/editor/EditorWidget.tsx:35
 msgid "Import"
-msgstr "Импорт"
+msgstr "Nhập"
 
 #: nodepkg/editor/EditorWidget.tsx:36
 msgid "Sort order"
-msgstr "Порядок сортировки"
+msgstr "Thứ tự sắp xếp"
 
 #: nodepkg/editor/EditorWidget.tsx:37
 msgid "Resort rows"
-msgstr "Пересортировать строки"
+msgstr "Sắp xếp lại các dòng"
 
 #: nodepkg/editor/EditorWidget.tsx:38
 msgid "Clear"
-msgstr "Очистить"
+msgstr "Xóa sạch"
 
 #: nodepkg/editor/EditorWidget.tsx:41
 msgid ""
 "All existing records will be deleted after import. Are you sure you want to "
 "proceed?"
 msgstr ""
-"Все существующие записи будут удалены после импорта. Вы уверены, что хотите "
-"продолжить?"
+"Tất cả bản ghi hiện có sẽ bị xóa sau khi nhập. Bạn có chắc chắn muốn tiếp tục không?"
 
 #: nodepkg/editor/EditorWidget.tsx:48
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:23
 msgid "Key"
-msgstr "Ключ"
+msgstr "Khóa"
 
 #: nodepkg/editor/EditorWidget.tsx:54
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:30
 msgid "Value"
-msgstr "Значение"
+msgstr "Giá trị"
 
 #: nodepkg/editor/EditorWidget.tsx:64
 msgid "Key, ascending"
-msgstr "Ключ, возр."
+msgstr "Khóa, tăng dần"
 
 #: nodepkg/editor/EditorWidget.tsx:65
 msgid "Key, descending"
-msgstr "Ключ, убыв."
+msgstr "Khóa, giảm dần"
 
 #: nodepkg/editor/EditorWidget.tsx:66
 msgid "Value, ascending"
-msgstr "Значение, возр."
+msgstr "Giá trị, tăng dần"
 
 #: nodepkg/editor/EditorWidget.tsx:67
 msgid "Value, descending"
-msgstr "Значение, убыв."
+msgstr "Giá trị, giảm dần"
 
 #: nodepkg/editor/EditorWidget.tsx:68
 msgid "Custom"
-msgstr "Настраиваемый"
+msgstr "Tùy chỉnh"
 
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:55
 msgid "Items"
-msgstr "Элементы справочника"
+msgstr "Các mục"

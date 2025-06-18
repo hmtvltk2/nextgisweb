@@ -1,93 +1,98 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:45 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:116
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:122
 msgid "TMS connection"
-msgstr "Соединение TMS"
+msgstr "Kết nối TMS"
 
 #: model.py:106
 msgid "API key required."
-msgstr "API ключ является обязательным."
+msgstr "Yêu cầu khóa API."
 
 #: model.py:147
 msgid "Zoom is out of range."
-msgstr "Масштаб вне диапазона"
+msgstr "Mức thu phóng nằm ngoài phạm vi."
 
 #: model.py:155 nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:203
 msgid "TMS layer"
-msgstr "Слой TMS"
+msgstr "Lớp TMS"
 
 #: model.py:300
 msgid "Layer name required."
-msgstr "Имя слоя является обязательным."
+msgstr "Yêu cầu tên lớp."
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:32
 msgid "Type"
-msgstr "Тип"
+msgstr "Loại"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:44
 msgid "Custom"
-msgstr "Настраиваемый"
+msgstr "Tùy chỉnh"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:55
 msgid "URL template"
-msgstr "Шаблон URL"
+msgstr "Mẫu URL"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:61
 msgid "Scheme"
-msgstr "Схема"
+msgstr "Giao thức"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:72
 msgid "API key"
-msgstr "Ключ API"
+msgstr "Khóa API"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:78
 msgid "API key param"
-msgstr "Параметр ключа API"
+msgstr "Tham số khóa API"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:85
 msgid "Username"
-msgstr "Пользователь"
+msgstr "Tên người dùng"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:95
 msgid "Password"
-msgstr "Пароль"
+msgstr "Mật khẩu"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:108
 msgid "Skip SSL/TLS certificate verification"
-msgstr "Не проверять сертификат SSL/TLS"
+msgstr "Bỏ qua xác minh chứng chỉ SSL/TLS"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:36
 msgid "This connection based on NextGIS Geoservices"
-msgstr "Это подключение к NextGIS Geoservices"
+msgstr "Kết nối này dựa trên NextGIS Geoservices"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:149
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:160
 msgid "Layer"
-msgstr "Имя слоя"
+msgstr "Lớp"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:168
 msgid "Min zoom level"
-msgstr "Мин. зум"
+msgstr "Mức thu phóng tối thiểu"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:176
 msgid "Max zoom level"
-msgstr "Макс. зум"
+msgstr "Mức thu phóng tối đa"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:184
 msgid "Tile size"
-msgstr "Размер тайла"
+msgstr "Kích thước tile"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:194
 msgid "Extent"
-msgstr "Охват"
+msgstr "Phạm vi"
 
 #: tile_fetcher.py:36
 msgid "The remote server did not respond in time."
-msgstr "Удаленный сервер не ответил вовремя."
+msgstr "Máy chủ từ xa không phản hồi kịp thời."
 
 #: tile_fetcher.py:83
 msgid "Unable to get a response from the remote server."
-msgstr "Не удалось получить ответ от удаленного сервера."
+msgstr "Không thể nhận phản hồi từ máy chủ từ xa."
 
 #: tile_fetcher.py:93
 msgid "An unexpected HTTP status code was received from the remote server."
-msgstr "От удаленного сервера получен неожиданный код статуса HTTP."
+msgstr "Nhận được mã trạng thái HTTP không mong đợi từ máy chủ từ xa."

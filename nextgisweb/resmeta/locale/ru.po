@@ -1,43 +1,48 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:60 nodepkg/editor/EditorWidget.tsx:98
 msgid "String"
-msgstr "Строка"
+msgstr "Chuỗi"
 
 #: model.py:61 nodepkg/editor/EditorWidget.tsx:99
 msgid "Number"
-msgstr "Число"
+msgstr "Số"
 
 #: model.py:62 nodepkg/editor/EditorWidget.tsx:100
 msgid "Boolean"
-msgstr "Логический"
+msgstr "Boolean"
 
 #: model.py:63 nodepkg/editor/EditorWidget.tsx:101
 msgid "Empty"
-msgstr "Пусто"
+msgstr "Trống"
 
 #: nodepkg/editor/EditorWidget.tsx:22
 msgid "Type here to add a new key..."
-msgstr "Введите новый ключ здесь..."
+msgstr "Nhập tại đây để thêm khóa mới..."
 
 #: nodepkg/editor/EditorWidget.tsx:79 template/resource_section.mako:21
 msgid "False"
-msgstr "Ложь"
+msgstr "Sai"
 
 #: nodepkg/editor/EditorWidget.tsx:80 template/resource_section.mako:21
 msgid "True"
-msgstr "Истина"
+msgstr "Đúng"
 
 #: nodepkg/editor/EditorWidget.tsx:109 template/resource_section.mako:12
 msgid "Key"
-msgstr "Ключ"
+msgstr "Khóa"
 
 #: nodepkg/editor/EditorWidget.tsx:115 template/resource_section.mako:13
 msgid "Type"
-msgstr "Тип"
+msgstr "Loại"
 
 #: nodepkg/editor/EditorWidget.tsx:121 template/resource_section.mako:14
 msgid "Value"
-msgstr "Значение"
+msgstr "Giá trị"
 
 #: nodepkg/editor/EditorWidget.tsx:135 view.py:14
 msgid "Metadata"
-msgstr "Метаданные"
+msgstr "Siêu dữ liệu"
