@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: nodepkg/style-editor/RasterStyleEditor.tsx:15
 msgid "Band {}"
 msgstr "Kênh {}"

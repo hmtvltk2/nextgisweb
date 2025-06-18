@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:84
 msgid "Table (%s) not found in schema (%s)."
 msgstr "Không tìm thấy bảng (%s) trong lược đồ (%s)."

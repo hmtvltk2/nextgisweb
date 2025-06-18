@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: backend/base.py:36
 msgid "Audit backend not enabled"
 msgstr "Механизм аудита не включен"

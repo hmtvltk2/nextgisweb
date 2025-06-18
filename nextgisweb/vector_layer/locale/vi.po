@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:23 model.py:710
 msgid "GDAL library failed to open file."
 msgstr "Thư viện GDAL không thể mở tệp."

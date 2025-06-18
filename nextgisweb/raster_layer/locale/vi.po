@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:124 api.py:145
 msgid "Requested raster is not COG."
 msgstr "Raster được yêu cầu không phải là COG."

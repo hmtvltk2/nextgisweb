@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: nodepkg/arm/validate.ts:5
 msgid "Value required"
 msgstr "Yêu cầu giá trị"

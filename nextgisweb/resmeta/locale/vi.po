@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:60 nodepkg/editor/EditorWidget.tsx:98
 msgid "String"
 msgstr "Chuỗi"

@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:26 nodepkg/resource-widget/Widget.tsx:93 view.py:22 view.py:30
 msgid "SVG marker library"
 msgstr "Thư viện marker SVG"

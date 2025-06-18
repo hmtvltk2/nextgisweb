@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "Chưa cung cấp id của mục mosaic raster."

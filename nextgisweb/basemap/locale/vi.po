@@ -1,3 +1,8 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+
 #: model.py:25
 msgid "Basemap"
 msgstr "Bản đồ nền"
