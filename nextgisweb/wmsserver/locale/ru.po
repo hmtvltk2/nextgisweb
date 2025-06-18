@@ -1,7 +1,4 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: vi\n"
+
 
 #: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:119 view.py:16
 msgid "WMS service"

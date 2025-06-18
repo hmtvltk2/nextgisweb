@@ -1,7 +1,4 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: vi\n"
+
 
 #: api.py:141
 msgid "System SRS cannot be deleted."

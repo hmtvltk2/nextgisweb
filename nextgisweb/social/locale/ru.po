@@ -1,7 +1,4 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: vi\n"
+
 
 #: nodepkg/editor-widget/EditorWidget.tsx:20
 msgid "Select a preview image"

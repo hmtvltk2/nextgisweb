@@ -1,7 +1,4 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: vi\n"
+
 
 #: api.py:107 api_identify.py:27
 msgid "Geometry is not valid."

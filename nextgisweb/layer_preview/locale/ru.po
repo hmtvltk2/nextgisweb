@@ -1,7 +1,4 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: vi\n"
+
 
 #: favorite.py:5 view.py:21 view.py:46
 msgid "Preview"

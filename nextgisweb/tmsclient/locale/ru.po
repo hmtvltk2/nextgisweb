@@ -1,7 +1,4 @@
-msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: vi\n"
+
 
 #: model.py:45 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:116
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:122
