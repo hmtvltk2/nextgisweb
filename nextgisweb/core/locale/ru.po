@@ -1,87 +1,85 @@
 #: component.py:94
 msgid "NextGIS geoinformation system"
-msgstr "Геоинформационная система NextGIS"
+msgstr "Hệ thống thông tin địa lý NextGIS"
 
 #: component.py:275
 msgid "Linux kernel"
-msgstr "Ядро Linux"
+msgstr "Nhân Linux"
 
 #: component.py:278
 msgid "OS distribution"
-msgstr "Дистрибутив ОС"
+msgstr "Bản phân phối hệ điều hành"
 
 #: component.py:290
 msgid "CPU"
-msgstr "Процессор"
+msgstr "CPU"
 
 #: component.py:293
 msgid "RAM"
-msgstr "ОЗУ"
+msgstr "RAM"
 
 #: component.py:322
 msgid "Last backup"
-msgstr "Последняя резервная копия"
+msgstr "Sao lưu gần nhất"
 
 #: component.py:326
 msgid "Last maintenance"
-msgstr "Последнее обслуживание"
+msgstr "Bảo trì gần nhất"
 
 #: exception.py:116
 msgid "Validation error"
-msgstr "Ошибка валидации"
+msgstr "Lỗi xác thực"
 
 #: exception.py:121
 msgid "Forbidden"
-msgstr "Запрещено"
+msgstr "Bị cấm"
 
 #: exception.py:126
 msgid "Insufficient permissions"
-msgstr "Недостаточно прав"
+msgstr "Không đủ quyền"
 
 #: exception.py:131
 msgid "Operational error"
-msgstr "Операционная ошибка"
+msgstr "Lỗi vận hành"
 
 #: exception.py:136
 msgid "External service error"
-msgstr "Ошибка внешнего сервиса"
+msgstr "Lỗi dịch vụ bên ngoài"
 
 #: exception.py:145
 msgid "Not configured"
-msgstr "Не сконфигурировано"
+msgstr "Chưa cấu hình"
 
 #: fontconfig.py:101
 msgid "Font not found: {}!"
-msgstr "Шрифт не найден: {}!"
+msgstr "Không tìm thấy phông chữ: {}!"
 
 #: storage.py:289
 msgid "Storage full"
-msgstr "Хранилище переполнено"
+msgstr "Bộ nhớ đã đầy"
 
 #: storage.py:290
 msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
-"Операция не может быть выполнена, так как лимит использования хранилища (%s) "
-"уже превышен на %s."
+"Không thể thực hiện thao tác này vì đã vượt quá giới hạn bộ nhớ (%s) là %s."
 
 #: storage.py:300
 msgid "Not enough storage"
-msgstr "Недостаточно места в хранилище"
+msgstr "Không đủ bộ nhớ"
 
 #: storage.py:301
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr ""
-"Операция не может быть выполнена, так как для ее выполнения требуется %s в "
-"хранилище, однако доступно только %s."
+"Thao tác này cần %s bộ nhớ nhưng chỉ còn %s khả dụng nên không thể thực hiện."
 
 #: storage.py:311
 msgid "Estimation is already running"
-msgstr "Процесс оценки хранилища уже запущен"
+msgstr "Quá trình ước tính đang chạy"
 
 #: test/test_exception.py:76
 msgid "The answer is %d"
-msgstr "Ответ %d"
+msgstr "Đáp án là %d"

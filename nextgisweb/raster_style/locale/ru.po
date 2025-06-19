@@ -2,4 +2,4 @@
 
 #: model.py:40
 msgid "Raster style"
-msgstr "Растровый стиль"
+msgstr "Kiểu raster"
